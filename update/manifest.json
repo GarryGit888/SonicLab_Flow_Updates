@@ -20,15 +20,15 @@
   "channels": {
     "mac_arm64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.4/SonicLab_Flow_v0.1.4_mac_arm64_beta_clean.zip",
-      "sha256": "141ee1c5a70920b289b984c46b2fee0b6886447b60e32f9c3c27aa06417aa3ec"
+      "sha256": "ec7d97ffbbdaf2141286d5517f5bbd14dbf4daa60ead667221285a395af7c0e8"
     },
     "mac_x64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.4/SonicLab_Flow_v0.1.4_intel_mac_beta.zip",
-      "sha256": "08a384c41adda06dc601e888a919799f10c34568d413db4e6300c88c612e0d90"
+      "sha256": "a98be2b0be85a5ea948f275768942d193df39ba1526d904af9508234c63141a7"
     },
     "win_x64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.4/SonicLab_Flow_v0.1.4_windows_beta.zip",
-      "sha256": "dc8579daee13bf9a7a916738944430f93bfe2541526ed39acc5019e723c2d1b8"
+      "sha256": "3a1b7d67482bbe8d53d26ebc5a2c1b7599c1cc20ffacb1bde26bdb1ee817d1e2"
     }
   }
 }
