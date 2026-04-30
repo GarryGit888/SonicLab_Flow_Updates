@@ -1,11 +1,12 @@
 {
   "version": "0.1.5",
-  "publishedAt": "2026-04-30T01:45:08Z",
+  "publishedAt": "2026-04-30T02:02:20Z",
   "notes": [
     "性能：左侧目录树展开、收起与主列表加载解耦，大型音效库下浏览更流畅。",
     "体验：子文件夹现在单击即可展开或收起，不再需要双击。",
     "界面：主页工具栏移除“检查更新”，统一移到设置页管理。",
     "更新：发现新版本时才会弹出更新提示，并在弹窗中展示本次更新日志。",
+    "更新：修复打包版检查更新/下载更新时可能出现 SSL 证书验证失败的问题。",
     "修复：标签库搜索结果布局刷新异常，避免搜索后彩色标签块错位。",
     "修复：标签管理左侧标签支持多选、连选、全选，便于批量删除标签。",
     "修复：标签管理中双击左侧标签时，主列表会精确切换到该标签，不再叠加旧筛选条件导致结果错误。",
@@ -15,15 +16,15 @@
   "channels": {
     "mac_arm64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_mac_arm64_beta_clean.zip",
-      "sha256": "a1b87b41bb40473986e4a7bdaab13cfa12e7c799be6a79a423ef9eac4ddb3641"
+      "sha256": "e24a05c16fdffcf8bffdd27e7785736428d87118811b30e3e6fd41fae89876ad"
     },
     "mac_x64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_intel_mac_beta.zip",
-      "sha256": "b7ce227bf178c72a660537371749097eef5f900e722b57628e71b947fab93e85"
+      "sha256": "dffe380258e81b73a9c04781c92b62d2d7d5726dca2c48c2fd218da658d09dfa"
     },
     "win_x64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_windows_beta.zip",
-      "sha256": "c91f1ce9780188688c5fa665dade070fd2187eaf4c3283c9e5e9ada622b5dd17"
+      "sha256": "d6723862591738a52bacead4a2851753306cdedd09aa29d2da28d1f1e774a947"
     }
   }
 }
