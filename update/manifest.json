@@ -1,34 +1,29 @@
 {
-  "version": "0.1.4",
-  "publishedAt": "2026-04-29T15:13:48Z",
+  "version": "0.1.5",
+  "publishedAt": "2026-04-30T01:45:08Z",
   "notes": [
-    "性能：搜索输入链路优化，减少重复查询派发与输入过程中的陈旧结果刷新，降低列表重建卡顿。",
-    "界面：顶部文字 Logo 略微缩小，顶部区域更紧凑。",
-    "界面：AI 翻译按钮新增运行态，翻译中会切换为“停止翻译”，并带有红色高亮提示。",
-    "体验：自动预览增强，选中音频即可播放；点击列表或文件夹树空白区域会自动停止预览。",
-    "修复：回收站恢复后会自动清理残留空目录；软件内回收记录支持清除系统废纸篓条目。",
-    "修复：AI 翻译完成后会保留当前文件夹作用域、当前选中文件与当前可见列表位置，不再跳到别的列表或回到首行。",
-    "修复：右键重新扫描后会保持当前树定位，并在当前作用域内刷新结果，避免扫描完成后跳到无关文件夹或其他列表视图。",
-    "修复：批量重命名、批量重新分析等文件处理操作完成后，会恢复当前列表上下文，减少处理后列表位置跳动。",
-    "性能：标签筛选时减少不必要的整表抖动与常规磁盘存在性检查，标签筛选加载更顺滑。",
-    "性能：点击左侧主文件夹时不再把“选中加载”和“目录展开重活”绑在一起，大型音效库浏览更流畅。",
-    "体验：右上角状态区现在会显示筛选中、搜索中、加载中、收藏筛选中、扫描中、AI 翻译中等状态提示。",
-    "构建：打包前会自动生成平台规范图标，macOS 生成 `.icns`，Windows 生成多尺寸 `.ico`。",
-    "构建：Apple Silicon 本地打包时会使用精简后的 `soniclab-flow` 资源目录，避免把开发期 `node_modules` 一并错误打进 App。"
+    "性能：左侧目录树展开、收起与主列表加载解耦，大型音效库下浏览更流畅。",
+    "体验：子文件夹现在单击即可展开或收起，不再需要双击。",
+    "界面：主页工具栏移除“检查更新”，统一移到设置页管理。",
+    "更新：发现新版本时才会弹出更新提示，并在弹窗中展示本次更新日志。",
+    "修复：标签库搜索结果布局刷新异常，避免搜索后彩色标签块错位。",
+    "修复：标签管理左侧标签支持多选、连选、全选，便于批量删除标签。",
+    "修复：标签管理中双击左侧标签时，主列表会精确切换到该标签，不再叠加旧筛选条件导致结果错误。",
+    "性能：主列表点击“中文名 / AI 描述”列时减少无效交互与重绘，选中文件更顺滑。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.4/SonicLab_Flow_v0.1.4_mac_arm64_beta_clean.zip",
-      "sha256": "ec7d97ffbbdaf2141286d5517f5bbd14dbf4daa60ead667221285a395af7c0e8"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_mac_arm64_beta_clean.zip",
+      "sha256": "a1b87b41bb40473986e4a7bdaab13cfa12e7c799be6a79a423ef9eac4ddb3641"
     },
     "mac_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.4/SonicLab_Flow_v0.1.4_intel_mac_beta.zip",
-      "sha256": "a98be2b0be85a5ea948f275768942d193df39ba1526d904af9508234c63141a7"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_intel_mac_beta.zip",
+      "sha256": "b7ce227bf178c72a660537371749097eef5f900e722b57628e71b947fab93e85"
     },
     "win_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.4/SonicLab_Flow_v0.1.4_windows_beta.zip",
-      "sha256": "3a1b7d67482bbe8d53d26ebc5a2c1b7599c1cc20ffacb1bde26bdb1ee817d1e2"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_windows_beta.zip",
+      "sha256": "c91f1ce9780188688c5fa665dade070fd2187eaf4c3283c9e5e9ada622b5dd17"
     }
   }
 }
