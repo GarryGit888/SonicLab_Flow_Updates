@@ -1,6 +1,6 @@
 {
   "version": "0.1.6",
-  "publishedAt": "2026-04-30T07:09:10Z",
+  "publishedAt": "2026-04-30T07:34:17Z",
   "notes": [
     "修复：波形图生成改为峰值包络并提升音乐素材显示精度，主波形可随轨道显示高度自适应拉伸。",
     "界面：新增右侧波形高度滑杆，并让波形高度滑杆、音量滑杆与 UI 高亮颜色联动。",
@@ -12,15 +12,15 @@
   "channels": {
     "mac_arm64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_mac_arm64_beta_clean.zip",
-      "sha256": "a181e494813e6bb09837371d769ce9a39de0308c94a38b2885a085aaaca1da42"
+      "sha256": "e2cf58fb867f79cee1640244bc2f3683bb29052b5a17aa4a983f1077dbd6732f"
     },
     "mac_x64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_intel_mac_beta.zip",
-      "sha256": "9927f965e35f60df18bafc860ad805d2440660e64f6d8e0c48b2c0c9f395e5d1"
+      "sha256": "6fe899335672dfbf912b88bf90ac5057b238a67212c399c019ea8bc1cadb0a37"
     },
     "win_x64": {
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_windows_beta.zip",
-      "sha256": "059e76c6ba8f3c178a6df0eaa011c2057a253137ea7a636d7753d13946d84fd4"
+      "sha256": "c737ca6b178826643aecb3d02ef00bcdd5f228996b1a607ead90bd786c312156"
     }
   }
 }
