@@ -1,26 +1,26 @@
 {
   "version": "0.1.6",
-  "publishedAt": "2026-04-30T08:11:00Z",
+  "publishedAt": "2026-04-30T11:07:02Z",
   "notes": [
-    "修复：波形图生成改为峰值包络并提升音乐素材显示精度，主波形可随轨道显示高度自适应拉伸。",
-    "界面：新增右侧波形高度滑杆，并让波形高度滑杆、音量滑杆与 UI 高亮颜色联动。",
-    "修复：长时间运行后列表滚动、播放头更新、VU 音量表跳动异常等稳定性问题。",
-    "新增：表格支持 AI 标签、自定义描述列，自定义描述可双击直接编辑并参与 AI 翻译提示。",
-    "体验：新增窗口置顶开关，支持在 Resolve 等软件操作时保持 SonicLab Flow 始终置顶。"
+    "修复：波形图生成改为峰值包络，音乐类素材轮廓更接近真实音频。",
+    "修复：波形列表缩略图按整段音频重采样到 96 根，不再只截取前 96 根。",
+    "性能：ffmpeg 波形提取提升采样密度，长音乐 fallback 波形细节更稳定。",
+    "缓存：波形缓存升级为 peakv2 后缀，自动避开旧版 RMS/dB 压缩缓存。",
+    "界面：主波形随显示区域高度自适应拉伸，并新增右侧波形高度滑杆。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_mac_arm64_beta_clean_r3.zip",
-      "sha256": "89a8c8647c5664d0c8a577a5c205964dd049348d6af633fa3a17217aaca2405e"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_mac_arm64_beta_clean.zip",
+      "sha256": "dbdfb336b1b9ab44e9a45317a55c572890555f67b42d806742e2ae5a9b62030b"
     },
     "mac_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_intel_mac_beta_r3.zip",
-      "sha256": "4ddcafd00255ffaeb584767bc9ccb3f6bab0947fef2abd446b1874029ed4649e"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_intel_mac_beta.zip",
+      "sha256": "16fcdff60405dcf73b8e37da3f2df44bed50936d435c65ef4b03e486aa08fe56"
     },
     "win_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_windows_beta_r3.zip",
-      "sha256": "16260d61772649e2eff75bc0f1c4b8f77c99ad962bab82714f5f6001b8929789"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_windows_beta.zip",
+      "sha256": "5ccb7f647ae82121ca990fca4f9ea7086acecd8e981f11417f67d948f4529828"
     }
   }
 }
