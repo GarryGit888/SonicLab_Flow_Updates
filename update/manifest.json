@@ -1,30 +1,26 @@
 {
-  "version": "0.1.5",
-  "publishedAt": "2026-04-30T02:02:20Z",
+  "version": "0.1.6",
+  "publishedAt": "2026-04-30T07:09:10Z",
   "notes": [
-    "性能：左侧目录树展开、收起与主列表加载解耦，大型音效库下浏览更流畅。",
-    "体验：子文件夹现在单击即可展开或收起，不再需要双击。",
-    "界面：主页工具栏移除“检查更新”，统一移到设置页管理。",
-    "更新：发现新版本时才会弹出更新提示，并在弹窗中展示本次更新日志。",
-    "更新：修复打包版检查更新/下载更新时可能出现 SSL 证书验证失败的问题。",
-    "修复：标签库搜索结果布局刷新异常，避免搜索后彩色标签块错位。",
-    "修复：标签管理左侧标签支持多选、连选、全选，便于批量删除标签。",
-    "修复：标签管理中双击左侧标签时，主列表会精确切换到该标签，不再叠加旧筛选条件导致结果错误。",
-    "性能：主列表点击“中文名 / AI 描述”列时减少无效交互与重绘，选中文件更顺滑。"
+    "修复：波形图生成改为峰值包络并提升音乐素材显示精度，主波形可随轨道显示高度自适应拉伸。",
+    "界面：新增右侧波形高度滑杆，并让波形高度滑杆、音量滑杆与 UI 高亮颜色联动。",
+    "修复：长时间运行后列表滚动、播放头更新、VU 音量表跳动异常等稳定性问题。",
+    "新增：表格支持 AI 标签、自定义描述列，自定义描述可双击直接编辑并参与 AI 翻译提示。",
+    "体验：新增窗口置顶开关，支持在 Resolve 等软件操作时保持 SonicLab Flow 始终置顶。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_mac_arm64_beta_clean.zip",
-      "sha256": "e24a05c16fdffcf8bffdd27e7785736428d87118811b30e3e6fd41fae89876ad"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_mac_arm64_beta_clean.zip",
+      "sha256": "a181e494813e6bb09837371d769ce9a39de0308c94a38b2885a085aaaca1da42"
     },
     "mac_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_intel_mac_beta.zip",
-      "sha256": "dffe380258e81b73a9c04781c92b62d2d7d5726dca2c48c2fd218da658d09dfa"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_intel_mac_beta.zip",
+      "sha256": "9927f965e35f60df18bafc860ad805d2440660e64f6d8e0c48b2c0c9f395e5d1"
     },
     "win_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.5/SonicLab_Flow_v0.1.5_windows_beta.zip",
-      "sha256": "d6723862591738a52bacead4a2851753306cdedd09aa29d2da28d1f1e774a947"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.6/SonicLab_Flow_v0.1.6_windows_beta.zip",
+      "sha256": "059e76c6ba8f3c178a6df0eaa011c2057a253137ea7a636d7753d13946d84fd4"
     }
   }
 }
