@@ -1,27 +1,27 @@
 {
-  "version": "0.1.9",
-  "publishedAt": "2026-05-01T16:16:01Z",
+  "version": "0.2.0",
+  "publishedAt": "2026-05-01T19:06:19Z",
   "notes": [
-    "修复：波形图生成改为峰值包络，音乐类素材轮廓更接近真实音频。",
-    "修复：波形列表缩略图按整段音频重采样到 96 根，不再只截取前 96 根。",
-    "性能：ffmpeg 波形提取提升采样密度，长音乐 fallback 波形细节更稳定。",
-    "缓存：波形缓存升级为 peakv2 后缀，自动避开旧版 RMS/dB 压缩缓存。",
-    "界面：主波形随显示区域高度自适应拉伸，并新增右侧波形高度滑杆。"
+    "性能：批量添加标签和批量描述改为后台线程与分批提交，减少多选右键卡死。",
+    "体验：自动播放仅在单选音频时触发，多选文件不会误播放。",
+    "体验：波形切换加入占位波形和延迟加载提示，减少快速预览时的跳动。",
+    "新增：专业元数据读取/编辑，支持标题、艺人、专辑、描述、关键词、UCS 分类和 BPM。",
+    "Windows：下载更新后优先打开安装包目录，方便手动安装新版。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.9/SonicLab_Flow_v0.1.9_mac_arm64_beta_clean.zip",
-      "sha256": "4829522e075622300a976304099269191d7a2c1ac122686da0f140cbc2b975b1"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.0/SonicLab_Flow_v0.2.0_mac_arm64_beta_clean.zip",
+      "sha256": "477ad351609bf908efb88be56577580af0544f34623dbe30d791ffd1d7840bc9"
     },
     "mac_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.9/SonicLab_Flow_v0.1.9_intel_mac_beta.zip",
-      "sha256": "e1bc9c10e50fb0c4be9a27c5f534e705433915923645e2167b4394baef268276"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.0/SonicLab_Flow_v0.2.0_intel_mac_beta.zip",
+      "sha256": "1541a1aa25fb2571ffa47d491c215599876c1403196a1493c62e1be87310b2d2"
     },
     "win_x64": {
-      "version": "0.1.9",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.9/SonicLab_Flow_v0.1.9_windows_beta.zip",
-      "sha256": "0e1d3da73a037529edb00452dfb17342adc32856612403e922751a7c0a8017f5"
+      "version": "0.2.0",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.0/SonicLab_Flow_v0.2.0_windows_beta.zip",
+      "sha256": "42b3460d46025f9bef74c8203754c0e94c36a6329b44f77cf1b62c87f78caee1"
     }
   }
 }
