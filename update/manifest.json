@@ -20,13 +20,13 @@
     },
     "win_x64": {
       "version": "0.1.9",
-      "publishedAt": "2026-05-01T08:29:30Z",
+      "publishedAt": "2026-05-01T08:47:47Z",
       "notes": [
         "Windows 热修复：应用内更新安装器最多等待旧进程 15 秒，超时后自动结束旧进程并继续替换。",
         "修复：解决下载更新后点击安装，命令行弹出但长时间无反应的问题。",
         "提示优化：如果旧版本进程仍无法退出，会明确提示用户先手动关闭再重试。"
       ],
-      "url": "https://github.com/GarryGit888/SonicLab_Flow/releases/download/ci-v0.1.9-1b5fb8b48219333dedbfc8a3ce019478c57cb3ec/SonicLab_Flow_v0.1.9_windows_beta.zip",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.9/SonicLab_Flow_v0.1.9_windows_beta.zip",
       "sha256": "0e1d3da73a037529edb00452dfb17342adc32856612403e922751a7c0a8017f5"
     }
   }
