@@ -1,6 +1,6 @@
 {
-  "version": "0.1.7",
-  "publishedAt": "2026-05-01T06:19:20Z",
+  "version": "0.1.8",
+  "publishedAt": "2026-05-01T07:34:24Z",
   "notes": [
     "修复：波形图生成改为峰值包络，音乐类素材轮廓更接近真实音频。",
     "修复：波形列表缩略图按整段音频重采样到 96 根，不再只截取前 96 根。",
@@ -11,16 +11,16 @@
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.7/SonicLab_Flow_v0.1.7_mac_arm64_beta_clean.zip",
-      "sha256": "966b77175faab52e5113d75465c568217e53fd7af91a1a1c225aa38124685c01"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.8/SonicLab_Flow_v0.1.8_mac_arm64_beta_clean.zip",
+      "sha256": "600451bbc85c89bc242b1bf668dcdd98ad5dcc4f095d636698c706f4bfa1d212"
     },
     "mac_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.7/SonicLab_Flow_v0.1.7_intel_mac_beta.zip",
-      "sha256": "2459d08259ba8163d5a372e7a6c0526412d14b00bfa1d757e9ee71c6f487e2ab"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.8/SonicLab_Flow_v0.1.8_intel_mac_beta.zip",
+      "sha256": "e27057714c3faa426d71b2560cac1a597abfd732fa9ffd0b027e48ff6b321c50"
     },
     "win_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.7/SonicLab_Flow_v0.1.7_windows_beta.zip",
-      "sha256": "6aacede3fee498fff236ed8712d25654d98447e8d6c458c49ae1e9e503a95791"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.1.8/SonicLab_Flow_v0.1.8_windows_beta.zip",
+      "sha256": "6b198d12895ff85178de36e66794c8f7fb837a52b78ab35cfe3b211a2c326174"
     }
   }
 }
