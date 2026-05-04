@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0",
-  "publishedAt": "2026-05-01T19:06:19Z",
+  "version": "0.2.1",
+  "publishedAt": "2026-05-04T06:02:07Z",
   "notes": [
     "性能：批量添加标签和批量描述改为后台线程与分批提交，减少多选右键卡死。",
     "体验：自动播放仅在单选音频时触发，多选文件不会误播放。",
@@ -11,17 +11,17 @@
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.0/SonicLab_Flow_v0.2.0_mac_arm64_beta_clean.zip",
-      "sha256": "477ad351609bf908efb88be56577580af0544f34623dbe30d791ffd1d7840bc9"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.1/SonicLab_Flow_v0.2.1_mac_arm64_beta_clean.zip",
+      "sha256": "7b2d338fce38cf9746be27a6a94e699062b73792f4a5f1c551274a3189088af3"
     },
     "mac_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.0/SonicLab_Flow_v0.2.0_intel_mac_beta.zip",
-      "sha256": "1541a1aa25fb2571ffa47d491c215599876c1403196a1493c62e1be87310b2d2"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.1/SonicLab_Flow_v0.2.1_intel_mac_beta.zip",
+      "sha256": "bf65b82ab7862ac476eda019e14e252029e3b0d563068fa6f3dce1240702a006"
     },
     "win_x64": {
-      "version": "0.2.0",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.0/SonicLab_Flow_v0.2.0_windows_beta.zip",
-      "sha256": "42b3460d46025f9bef74c8203754c0e94c36a6329b44f77cf1b62c87f78caee1"
+      "version": "0.2.1",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.1/SonicLab_Flow_v0.2.1_windows_beta.zip",
+      "sha256": "a2abfde4ad5fe26e5779af6bb580c3ca03a9c84fe4e78296eff05bcb48fa01c9"
     }
   }
 }
