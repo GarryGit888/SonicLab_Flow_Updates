@@ -4,6 +4,7 @@
   "notes": [
     "修复：MP3/WAV 多次播放、暂停、切换后可能卡住、重叠播放或按钮状态错误的问题。",
     "修复：MP3 点选波形跳转时播放头闪跳到其他位置再回来的问题，提升点选稳定性。",
+    "修复：Windows 端打开预览/播放时 ffmpeg 工具链反复弹出控制台窗口的问题。",
     "优化：MP3 波形统一基于 ffmpeg 解码后的 PCM 峰值包络生成，移除伪随机回退并刷新峰值缓存，提升起伏和双声道准确性。",
     "优化：长 MP3 改为更稳定的 PCM 流式播放，切换音频时统一清理播放线程、sounddevice 流和 ffmpeg 子进程。",
     "新增：播放过程中框选主波形或当前行波形时，可立即跳转到选区入点继续播放。"
@@ -21,7 +22,7 @@
     "win_x64": {
       "version": "0.2.2",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.2/SonicLab_Flow_v0.2.2_windows_beta.zip",
-      "sha256": "188d3d97738515b1217c78035d7be66fbd268d1cc78a105dedb6a3021a5f92ba"
+      "sha256": "d87d014b6703e396e25fecea6d575be86e321f3540f56197b7f20f0381038ece"
     }
   }
 }
