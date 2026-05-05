@@ -1,27 +1,27 @@
 {
-  "version": "0.2.1",
-  "publishedAt": "2026-05-04T06:02:07Z",
+  "version": "0.2.2",
+  "publishedAt": "2026-05-05T04:11:37Z",
   "notes": [
-    "性能：批量添加标签和批量描述改为后台线程与分批提交，减少多选右键卡死。",
-    "体验：自动播放仅在单选音频时触发，多选文件不会误播放。",
-    "体验：波形切换加入占位波形和延迟加载提示，减少快速预览时的跳动。",
-    "新增：专业元数据读取/编辑，支持标题、艺人、专辑、描述、关键词、UCS 分类和 BPM。",
-    "Windows：下载更新后优先打开安装包目录，方便手动安装新版。"
+    "修复：MP3/WAV 多次播放、暂停、切换后可能卡住、重叠播放或按钮状态错误的问题。",
+    "修复：MP3 点选波形跳转时播放头闪跳到其他位置再回来的问题，提升点选稳定性。",
+    "优化：MP3 波形统一基于 ffmpeg 解码后的 PCM 峰值包络生成，移除伪随机回退并刷新峰值缓存，提升起伏和双声道准确性。",
+    "优化：长 MP3 改为更稳定的 PCM 流式播放，切换音频时统一清理播放线程、sounddevice 流和 ffmpeg 子进程。",
+    "新增：播放过程中框选主波形或当前行波形时，可立即跳转到选区入点继续播放。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.1/SonicLab_Flow_v0.2.1_mac_arm64_beta_clean.zip",
-      "sha256": "7b2d338fce38cf9746be27a6a94e699062b73792f4a5f1c551274a3189088af3"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.2/SonicLab_Flow_v0.2.2_mac_arm64_beta_clean.zip",
+      "sha256": "2a6fc3a94e1a67018031deb80ce4fe81a01dc0de97e0a8d21044bf1c434ffeb0"
     },
     "mac_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.1/SonicLab_Flow_v0.2.1_intel_mac_beta.zip",
-      "sha256": "bf65b82ab7862ac476eda019e14e252029e3b0d563068fa6f3dce1240702a006"
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.2/SonicLab_Flow_v0.2.2_intel_mac_beta.zip",
+      "sha256": "bf8100dcca1dc3b001528f968fe9235accf833c5db60f991862251b9f1f6bac8"
     },
     "win_x64": {
-      "version": "0.2.1",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.1/SonicLab_Flow_v0.2.1_windows_beta.zip",
-      "sha256": "a2abfde4ad5fe26e5779af6bb580c3ca03a9c84fe4e78296eff05bcb48fa01c9"
+      "version": "0.2.2",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.2/SonicLab_Flow_v0.2.2_windows_beta.zip",
+      "sha256": "188d3d97738515b1217c78035d7be66fbd268d1cc78a105dedb6a3021a5f92ba"
     }
   }
 }
