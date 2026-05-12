@@ -1,27 +1,29 @@
 {
-  "version": "0.2.3",
-  "publishedAt": "2026-05-07T03:54:57Z",
+  "version": "0.2.4",
+  "publishedAt": "2026-05-12T05:24:07Z",
   "notes": [
-    "新增：UI 界面设置支持主题色相、饱和度、亮度、对比度和波形颜色个性化调节。",
-    "新增：波形未选中亮度调节，未选状态下的波形可单独提亮。",
-    "优化：播放中的左侧绿色覆盖改为更短的高光尾迹，和波形主体形成更清楚的反差。",
-    "修复：UI 颜色调节改为更稳的延迟应用，降低拖动滑杆时闪退风险。",
-    "修复：关闭或重启时补强后台扫描回调收口，减少数据库关闭后的异常回调。"
+    "新增：miniaudio 统一播放引擎与 PCM 缓存，提升 MP3 等长音频播放响应。",
+    "新增：高性能波形组件，支持 NumPy 峰值抽值、播放头同步、点击跳转与选区。",
+    "优化：数据库启动缓存与文件夹索引安全性，减少大素材库每次启动重复扫描。",
+    "优化：维护任务改为完全空闲时执行，降低数据库锁提示与界面干扰。",
+    "优化：macOS 与 Windows 平台图标重新生成，增加平台规范视觉留白。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.3/SonicLab_Flow_v0.2.3_mac_arm64_beta_clean.zip",
-      "sha256": "0fc1c40a4be35d26e52ace2c3ac663d836a240cb62aa9f6491b6c29984311bea"
+      "version": "0.2.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_mac_arm64_beta_clean.zip",
+      "sha256": "b014fb04433e9da3f02b5b15912ba0b8d1782011ef29195e725f56bbb8856aba"
     },
     "mac_x64": {
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.3/SonicLab_Flow_v0.2.3_intel_mac_beta.zip",
-      "sha256": "4760962d7ed70ecd71fe6f3d3137594cfa96deac342cec5d64eefa291f5644f9"
+      "version": "0.2.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_intel_mac_beta.zip",
+      "sha256": "a510cf90611a54250ac8ec68c17571c1bc0d01176765e8d4118464d8a149567c"
     },
     "win_x64": {
-      "version": "0.2.3",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.3/SonicLab_Flow_v0.2.3_windows_beta.zip",
-      "sha256": "1f0b430da30ccf7ce167a8a4ec835eec6968ca78908b18d4b0875f3f4db21f75"
+      "version": "0.2.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_windows_beta.zip",
+      "sha256": "b192a95728815ae6522d8a31cde767cac544b102b3b1c8c1c5b27fb63058b1aa"
     }
   }
 }
