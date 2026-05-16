@@ -1,29 +1,30 @@
 {
   "version": "0.2.4",
-  "publishedAt": "2026-05-12T05:24:07Z",
+  "publishedAt": "2026-05-16T05:12:00Z",
   "notes": [
-    "新增：miniaudio 统一播放引擎与 PCM 缓存，提升 MP3 等长音频播放响应。",
-    "新增：高性能波形组件，支持 NumPy 峰值抽值、播放头同步、点击跳转与选区。",
-    "优化：数据库启动缓存与文件夹索引安全性，减少大素材库每次启动重复扫描。",
-    "优化：维护任务改为完全空闲时执行，降低数据库锁提示与界面干扰。",
-    "优化：macOS 与 Windows 平台图标重新生成，增加平台规范视觉留白。"
+    "更新：Beta 激活机制已切换为离线一机一码，激活成功后授权保存在本机。",
+    "修复：长 FLAC/未知时长安全格式不再误走短文件播放路径，避免播放一段时间后后端 idle 导致自动停止。",
+    "修复：长安全格式在 soundfile 流式失败时回退到完整 ffmpeg PCM stream，不再落入 12 秒临时预览兜底。",
+    "修复：更新系统增加国内镜像代理支持，解决国内用户无法连接 GitHub 获取更新的问题。",
+    "修复：更新清单获取增加 ghproxy.net / mirror.ghproxy.com / gh.api.99988866.xyz 多个国内镜像 fallback。",
+    "修复：更新包下载自动尝试 jsDelivr CDN 和国内代理镜像，提升国内用户下载速度。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
       "version": "0.2.4",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_mac_arm64_beta_clean.zip",
-      "sha256": "b014fb04433e9da3f02b5b15912ba0b8d1782011ef29195e725f56bbb8856aba"
+      "sha256": "84affa1e99edc4581b46803afab810f994886ee3c858adc96771f56873bb79b4"
     },
     "mac_x64": {
       "version": "0.2.4",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_intel_mac_beta.zip",
-      "sha256": "a510cf90611a54250ac8ec68c17571c1bc0d01176765e8d4118464d8a149567c"
+      "sha256": "3797f6610abac4009c86e62503f4d3ba234fdbc9f57e6b87f98614ae376f4718"
     },
     "win_x64": {
       "version": "0.2.4",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_windows_beta.zip",
-      "sha256": "b192a95728815ae6522d8a31cde767cac544b102b3b1c8c1c5b27fb63058b1aa"
+      "sha256": "8b33781d1be0911a7c8f2f6b7e7edaaf92e32216261b09d89a4b4c204db1feaf"
     }
   }
 }
