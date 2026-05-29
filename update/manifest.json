@@ -1,30 +1,29 @@
 {
-  "version": "0.2.4",
-  "publishedAt": "2026-05-16T05:12:00Z",
+  "version": "0.2.6",
+  "publishedAt": "2026-05-29T02:58:48Z",
   "notes": [
-    "更新：Beta 激活机制已切换为离线一机一码，激活成功后授权保存在本机。",
-    "修复：长 FLAC/未知时长安全格式不再误走短文件播放路径，避免播放一段时间后后端 idle 导致自动停止。",
-    "修复：长安全格式在 soundfile 流式失败时回退到完整 ffmpeg PCM stream，不再落入 12 秒临时预览兜底。",
-    "修复：更新系统增加国内镜像代理支持，解决国内用户无法连接 GitHub 获取更新的问题。",
-    "修复：更新清单获取增加 ghproxy.net / mirror.ghproxy.com / gh.api.99988866.xyz 多个国内镜像 fallback。",
-    "修复：更新包下载自动尝试 jsDelivr CDN 和国内代理镜像，提升国内用户下载速度。"
+    "新增：UCS 命名工具，整理音效文件更顺手。",
+    "优化：大素材库浏览和波形加载更轻快。",
+    "修复：FLAC 可能有进度但没声音的问题。",
+    "优化：数据库写入更稳，减少被锁提示。",
+    "优化：Windows 改为目录包，降低安全软件误删概率。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.2.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_mac_arm64_beta_clean.zip",
-      "sha256": "84affa1e99edc4581b46803afab810f994886ee3c858adc96771f56873bb79b4"
+      "version": "0.2.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_mac_arm64_beta_clean.zip",
+      "sha256": "f3bc710a9d33a761416b29711dfb578a9622ed8adea819aeba29538b4aea9d42"
     },
     "mac_x64": {
-      "version": "0.2.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_intel_mac_beta.zip",
-      "sha256": "3797f6610abac4009c86e62503f4d3ba234fdbc9f57e6b87f98614ae376f4718"
+      "version": "0.2.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_intel_mac_beta.zip",
+      "sha256": "4dd4a0297d7a58c8fb6349de2680913768fb6438114245e2a2540cca44986552"
     },
     "win_x64": {
-      "version": "0.2.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.4/SonicLab_Flow_v0.2.4_windows_beta.zip",
-      "sha256": "8b33781d1be0911a7c8f2f6b7e7edaaf92e32216261b09d89a4b4c204db1feaf"
+      "version": "0.2.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_windows_beta.zip",
+      "sha256": "ae1333e6a266bac795897f9a083c9c20a52c4cb3f0d9dc4d7d04d1e7ca701b5d"
     }
   }
 }
