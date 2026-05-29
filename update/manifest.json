@@ -1,12 +1,14 @@
 {
   "version": "0.2.6",
-  "publishedAt": "2026-05-29T06:01:20Z",
+  "publishedAt": "2026-05-29T08:50:53Z",
   "notes": [
     "新增：UCS 命名工具，整理音效文件更顺手。",
     "优化：大素材库浏览和波形加载更轻快。",
     "修复：FLAC 可能有进度但没声音的问题。",
     "优化：数据库写入更稳，减少被锁提示。",
-    "优化：Windows 改为目录包，降低安全软件误删概率。"
+    "优化：Windows 改为目录包，降低安全软件误删概率。",
+    "修复：旧数据库在 Windows 上可能因 added_at 缺失打不开的问题。",
+    "修复：Windows 上 DaVinci Resolve 路径分离时可能调用失败的问题。"
   ],
   "mandatory": false,
   "channels": {
@@ -23,7 +25,7 @@
     "win_x64": {
       "version": "0.2.6",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_windows_beta.zip",
-      "sha256": "f4c1c76b96a9adf2ad7f6bed0f17848149ff1d776591a7e63f006294e8fd913f"
+      "sha256": "90069d5aa8b4cbd7c34cd47100a9c6bf580f2510e3bb2c6f589f6e4c5c9d3c9d"
     }
   }
 }
