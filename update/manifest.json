@@ -1,6 +1,6 @@
 {
   "version": "0.2.6",
-  "publishedAt": "2026-05-29T02:58:48Z",
+  "publishedAt": "2026-05-29T06:01:20Z",
   "notes": [
     "新增：UCS 命名工具，整理音效文件更顺手。",
     "优化：大素材库浏览和波形加载更轻快。",
@@ -13,17 +13,17 @@
     "mac_arm64": {
       "version": "0.2.6",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_mac_arm64_beta_clean.zip",
-      "sha256": "f3bc710a9d33a761416b29711dfb578a9622ed8adea819aeba29538b4aea9d42"
+      "sha256": "9d6af90248859d8b7e726244a32849da6aa47f8ea6c3079a0527e83d1800f4e0"
     },
     "mac_x64": {
       "version": "0.2.6",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_intel_mac_beta.zip",
-      "sha256": "4dd4a0297d7a58c8fb6349de2680913768fb6438114245e2a2540cca44986552"
+      "sha256": "f2f983f5035b2a0f9abc7cc5e1ef93961c70e703626e46541aed24927ab2241a"
     },
     "win_x64": {
       "version": "0.2.6",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_windows_beta.zip",
-      "sha256": "ae1333e6a266bac795897f9a083c9c20a52c4cb3f0d9dc4d7d04d1e7ca701b5d"
+      "sha256": "f4c1c76b96a9adf2ad7f6bed0f17848149ff1d776591a7e63f006294e8fd913f"
     }
   }
 }
