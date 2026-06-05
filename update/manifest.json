@@ -1,30 +1,31 @@
 {
   "version": "0.2.6",
-  "publishedAt": "2026-06-05T12:18:02Z",
+  "publishedAt": "2026-06-05T18:17:39Z",
   "notes": [
-    "更新：Beta 激活机制已切换为离线一机一码，激活成功后授权保存在本机。",
-    "修复：长 FLAC/未知时长安全格式不再误走短文件播放路径，避免播放一段时间后后端 idle 导致自动停止。",
-    "修复：长安全格式在 soundfile 流式失败时回退到完整 ffmpeg PCM stream，不再落入 12 秒临时预览兜底。",
-    "修复：更新系统增加国内镜像代理支持，解决国内用户无法连接 GitHub 获取更新的问题。",
-    "修复：更新清单获取增加 ghproxy.net / mirror.ghproxy.com / gh.api.99988866.xyz 多个国内镜像 fallback。",
-    "修复：更新包下载自动尝试 jsDelivr CDN 和国内代理镜像，提升国内用户下载速度。"
+    "新增：UCS 命名工具，整理音效文件更顺手。",
+    "优化：大素材库浏览和波形加载更轻快。",
+    "修复：FLAC 可能有进度但没声音的问题。",
+    "优化：数据库写入更稳，减少被锁提示。",
+    "优化：Windows 主程序重新打包，降低火绒误删风险。",
+    "修复：旧数据库在 Windows 上可能因 added_at 缺失打不开的问题。",
+    "修复：Windows 上 DaVinci Resolve 路径分离时可能调用失败的问题。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
       "version": "0.2.6",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_mac_arm64_beta_clean.zip",
-      "sha256": "8dd068ccfb71867b9cc18817fe055d43918e1d59e0d614dcd61fb4c9c413af14"
+      "sha256": "8e7c6f0117e5f91fe5a25f71b7e1d36106436d707fcc05a24dafaf155d2effaf"
     },
     "mac_x64": {
       "version": "0.2.6",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_intel_mac_beta.zip",
-      "sha256": "9fed8bfaf39a10cb4c4c2e9d841c7b20213e33446b96a780393238dcb0bcf9ec"
+      "sha256": "bd190c56a62b9089dae53ffe490c839b2305ea68cf25ea2130eac14f7a6422f9"
     },
     "win_x64": {
       "version": "0.2.6",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.2.6/SonicLab_Flow_v0.2.6_windows_beta.zip",
-      "sha256": "9c3cc5c46f428d8a75cafd326caf50994ebc5803f773da69c8afb148f4a93690"
+      "sha256": "6f9b82feb0fc63934d18d21ee7a1dd73afaff8245a7f627e73db50d40b79d0bb"
     }
   }
 }
