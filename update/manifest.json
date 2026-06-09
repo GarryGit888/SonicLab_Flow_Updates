@@ -1,6 +1,6 @@
 {
   "version": "0.3.1",
-  "publishedAt": "2026-06-09T06:43:59Z",
+  "publishedAt": "2026-06-09T10:52:56Z",
   "distributionMode": "installers-only",
   "notes": [
     "修复 Electron 无边框窗口顶部拖拽移动区域失效的问题。",
@@ -10,6 +10,7 @@
     "优化悬浮面板交互，点击外部区域即可自动收起。",
     "内测激活有效期调整为 14 天，到期后需要重新激活。",
     "全局与批量波形加载进度弹窗支持后台运行与取消后续项目。",
+    "修复打包版异常退出后旧后端残留，导致重新启动长时间无响应的问题。",
     "打包流程默认仅保留 DMG 和 setup 安装包，不再默认生成 zip。"
   ],
   "mandatory": false,
@@ -17,17 +18,17 @@
     "mac_arm64": {
       "version": "0.3.1",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.1/SonicLab_Flow_v0.3.1_mac_arm64_installer.dmg",
-      "sha256": "ba6912429b98287fa7f9962e0a6c797ac3b02e5e6e880fb29bdb527b33e6d459"
+      "sha256": "60ab8ea06e963a6c1c14e105afca4cbf92a338aad2e8d613fd333bde98617e1d"
     },
     "mac_x64": {
       "version": "0.3.1",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.1/SonicLab_Flow_v0.3.1_intel_mac_installer.dmg",
-      "sha256": "40cddd183b4adc0416d2d934c3067f84d31016e32ca8b36314a3f15c05170ab8"
+      "sha256": "66da20b2dbb6e5fa33a3dabc63ae4df5b405df2c8e91d7f33926f33314a0b951"
     },
     "win_x64": {
       "version": "0.3.1",
       "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.1/SonicLab_Flow_v0.3.1_windows_setup.exe",
-      "sha256": "a6152e86745f2c079a444eae42c6adc0da6b6df7a674659453caaada805fcd65"
+      "sha256": "175ab26233ba04d8a70de3b712bdab2aa7659c255e20e3ca117d55aec544bb0b"
     }
   }
 }
