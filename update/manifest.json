@@ -1,34 +1,33 @@
 {
-  "version": "0.3.0",
-  "publishedAt": "2026-06-09T03:17:45Z",
+  "version": "0.3.1",
+  "publishedAt": "2026-06-09T06:43:59Z",
   "distributionMode": "installers-only",
   "notes": [
-    "新增播放队列、播放列表分组和 M3U 导入导出。",
-    "新增窗口整体缩放快捷键，适配 1080P 窄屏和竖屏使用。",
-    "修复右侧两个面板不能同时关闭的问题。",
-    "修复打包版本拖拽音频文件失效的问题。",
-    "修复 Windows 版本部分波形加载不出来的问题。",
-    "修复添加音频提示成功但列表没有及时显示的问题。",
-    "优化安装器内置后端、Classic、配置、Python runtime 和 Windows FFmpeg。"
+    "修复 Electron 无边框窗口顶部拖拽移动区域失效的问题。",
+    "修复 Windows 安装包桌面图标没有正确使用 SonicLab Flow 图标的问题。",
+    "调整右键菜单，移除无效的播放队列添加与移除入口。",
+    "优化播放列表分组弹窗布局，并新增音频封面缩略图显示。",
+    "优化悬浮面板交互，点击外部区域即可自动收起。",
+    "内测激活有效期调整为 14 天，到期后需要重新激活。",
+    "全局与批量波形加载进度弹窗支持后台运行与取消后续项目。",
+    "打包流程默认仅保留 DMG 和 setup 安装包，不再默认生成 zip。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.3.0",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.0/SonicLab_Flow_v0.3.0_mac_arm64_installer.dmg",
-      "sha256": "8c5eec353753b623ccf0cdcf447002342fd6c0723acc7fd0aaaf76e2cfecebf5"
+      "version": "0.3.1",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.1/SonicLab_Flow_v0.3.1_mac_arm64_installer.dmg",
+      "sha256": "ba6912429b98287fa7f9962e0a6c797ac3b02e5e6e880fb29bdb527b33e6d459"
     },
     "mac_x64": {
-      "version": "0.3.0",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.0/SonicLab_Flow_v0.3.0_intel_mac_installer.dmg",
-      "sha256": "838ec609610295baece0211c1ec4bd4a7ab17a07a4915579eabefaf2af53f6fb"
+      "version": "0.3.1",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.1/SonicLab_Flow_v0.3.1_intel_mac_installer.dmg",
+      "sha256": "40cddd183b4adc0416d2d934c3067f84d31016e32ca8b36314a3f15c05170ab8"
     },
     "win_x64": {
-      "version": "0.3.0",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.0/SonicLab_Flow_v0.3.0_windows_setup.exe",
-      "sha256": "8f9417f382ac5999d49874f70e8a993bcf0202cd8aa77767176f8ac13f34c400",
-      "blockmapUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.0/SonicLab_Flow_v0.3.0_windows_setup.exe.blockmap",
-      "blockmapSha256": "dc3ca90a7d4f991845a4a740c54e0382f7617125cade67b92c750e501b3a3971"
+      "version": "0.3.1",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.1/SonicLab_Flow_v0.3.1_windows_setup.exe",
+      "sha256": "a6152e86745f2c079a444eae42c6adc0da6b6df7a674659453caaada805fcd65"
     }
   }
 }
