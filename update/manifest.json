@@ -1,30 +1,30 @@
 {
-  "version": "0.3.3",
-  "publishedAt": "2026-06-12T01:30:23Z",
+  "version": "0.3.4",
+  "publishedAt": "2026-06-12T07:25:31Z",
   "distributionMode": "installers-only",
   "notes": [
-    "优化 AI 设置中 API Key 的记忆与保存提示。",
-    "修复 AI Base URL、模型名称与 Key 保存错位导致的连接问题。",
-    "优化文件夹颜色、文件夹排序与面板状态的持久化稳定性。",
-    "修复设置窗口保存失败后界面仍显示新值的假保存问题。",
-    "优化布局快照与主要 UI 配置的保存链路，减少静默丢失。"
+    "优化设置面板勾选项的命中范围，减少空白区域误触。",
+    "修复列表视图标签过大、重叠和挤压显示的问题。",
+    "优化文件夹切换和列表刷新时的动效稳定性，减少窗口抖动感。",
+    "提升双轨道和循环播放按钮的状态一致性与连续点击稳定性。",
+    "升级软件内更新交互，可查看更新说明、下载状态和下载链接。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.3.3",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.3/SonicLab_Flow_v0.3.3_mac_arm64_installer.dmg",
-      "sha256": "cc18bf598204ce0a3b88db695d5f3ceb4ac57c31320bdedcfa104e5cac4ff9a2"
+      "version": "0.3.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.4/SonicLab_Flow_v0.3.4_mac_arm64_installer.dmg",
+      "sha256": "38e9bd0595df73afb63b09d9ea9908cb1fc226e30b32fdc052b31372a8d59fb6"
     },
     "mac_x64": {
-      "version": "0.3.3",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.3/SonicLab_Flow_v0.3.3_intel_mac_installer.dmg",
-      "sha256": "7c9a1841a5c9c9a4229f53f8f1f7ac85f071339a6c5bf3695679cacd6b673115"
+      "version": "0.3.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.4/SonicLab_Flow_v0.3.4_intel_mac_installer.dmg",
+      "sha256": "01b6e5c15504445109916e9f682ced9d40841f893f66073585769e14e588af11"
     },
     "win_x64": {
-      "version": "0.3.3",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.3/SonicLab_Flow_v0.3.3_windows_setup.exe",
-      "sha256": "4d285ad6331ae00040716581de040cfccb9a61db173d39ad45ab2651fc2fca93"
+      "version": "0.3.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.4/SonicLab_Flow_v0.3.4_windows_setup.exe",
+      "sha256": "500e7adcc8f3eb0d445c40620d1ecb9cc00fe0d75350ca26b371b4c7b17fbb1b"
     }
   }
 }
