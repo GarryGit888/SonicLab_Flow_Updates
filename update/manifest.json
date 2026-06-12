@@ -1,32 +1,30 @@
 {
-  "version": "0.3.2",
-  "publishedAt": "2026-06-09T17:21:55Z",
+  "version": "0.3.3",
+  "publishedAt": "2026-06-12T01:30:23Z",
   "distributionMode": "installers-only",
   "notes": [
-    "播放列表支持全选、多选、连选、外部拖出和右侧排序手柄。",
-    "AI 标签显示更清晰，并会根据列宽自动折叠。",
-    "优化主列表、右侧详情和播放列表封面同步与加载速度。",
-    "优化右键加载波形反馈，先显示预览波形再后台细化。",
-    "修复重复点击当前播放音频重新播放和关闭循环后仍循环的问题。",
-    "修复 Windows 打包版后端偶发连接失败导致文件导入不进去的问题。",
-    "优化机器码稳定性和激活码兼容机制。"
+    "优化 AI 设置中 API Key 的记忆与保存提示。",
+    "修复 AI Base URL、模型名称与 Key 保存错位导致的连接问题。",
+    "优化文件夹颜色、文件夹排序与面板状态的持久化稳定性。",
+    "修复设置窗口保存失败后界面仍显示新值的假保存问题。",
+    "优化布局快照与主要 UI 配置的保存链路，减少静默丢失。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.3.2",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.2/SonicLab_Flow_v0.3.2_mac_arm64_installer.dmg",
-      "sha256": "48a512516254a5fa7f84f14fb430bd5cd84657dc8f686fe71657fcfaca423413"
+      "version": "0.3.3",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.3/SonicLab_Flow_v0.3.3_mac_arm64_installer.dmg",
+      "sha256": "cc18bf598204ce0a3b88db695d5f3ceb4ac57c31320bdedcfa104e5cac4ff9a2"
     },
     "mac_x64": {
-      "version": "0.3.2",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.2/SonicLab_Flow_v0.3.2_intel_mac_installer.dmg",
-      "sha256": "5fe1278870d605b4dc70ac9ee4b610d9494a82b990933c472e5fc7303a1f891a"
+      "version": "0.3.3",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.3/SonicLab_Flow_v0.3.3_intel_mac_installer.dmg",
+      "sha256": "7c9a1841a5c9c9a4229f53f8f1f7ac85f071339a6c5bf3695679cacd6b673115"
     },
     "win_x64": {
-      "version": "0.3.2",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.2/SonicLab_Flow_v0.3.2_windows_setup.exe",
-      "sha256": "bb6daf2598ec41b935f239a241013dcc6f2b8dfd8e18ab494cc16a2ce6c7a23f"
+      "version": "0.3.3",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.3/SonicLab_Flow_v0.3.3_windows_setup.exe",
+      "sha256": "4d285ad6331ae00040716581de040cfccb9a61db173d39ad45ab2651fc2fca93"
     }
   }
 }
