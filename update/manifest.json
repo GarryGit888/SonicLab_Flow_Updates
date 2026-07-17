@@ -1,6 +1,6 @@
 {
-  "version": "0.3.4",
-  "publishedAt": "2026-06-12T07:25:31Z",
+  "version": "0.3.8",
+  "publishedAt": "2026-07-17T07:35:45Z",
   "distributionMode": "installers-only",
   "notes": [
     "优化设置面板勾选项的命中范围，减少空白区域误触。",
@@ -12,19 +12,19 @@
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.3.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.4/SonicLab_Flow_v0.3.4_mac_arm64_installer.dmg",
-      "sha256": "38e9bd0595df73afb63b09d9ea9908cb1fc226e30b32fdc052b31372a8d59fb6"
+      "version": "0.3.8",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.8/SonicLab_Flow_v0.3.8_mac_arm64_installer.dmg",
+      "sha256": "0f9516249883cab66ff3bcd6a5a3bc1c0dac3d5efcfa47f39b5a97185e4bdef6"
     },
     "mac_x64": {
-      "version": "0.3.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.4/SonicLab_Flow_v0.3.4_intel_mac_installer.dmg",
-      "sha256": "01b6e5c15504445109916e9f682ced9d40841f893f66073585769e14e588af11"
+      "version": "0.3.8",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.8/SonicLab_Flow_v0.3.8_intel_mac_installer.dmg",
+      "sha256": "e567700ce9db151d3c009d8ed22cac1df9ff8fcbaf87c12634f02651fe576f92"
     },
     "win_x64": {
-      "version": "0.3.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.4/SonicLab_Flow_v0.3.4_windows_setup.exe",
-      "sha256": "500e7adcc8f3eb0d445c40620d1ecb9cc00fe0d75350ca26b371b4c7b17fbb1b"
+      "version": "0.3.8",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.8/SonicLab_Flow_v0.3.8_windows_setup.exe",
+      "sha256": "fd399977d2dfff951d1dd3baf9cbf26dcdcbdbe986478d979aeac64fffe82505"
     }
   }
 }
