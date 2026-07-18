@@ -1,30 +1,31 @@
 {
-  "version": "0.3.8",
-  "publishedAt": "2026-07-17T07:35:45Z",
+  "version": "0.3.9",
+  "publishedAt": "2026-07-18T06:28:33Z",
   "distributionMode": "installers-only",
   "notes": [
-    "修复 Windows 首次启动加载过慢或停留在加载页的问题，后端暂时不可用时会自动重试。",
-    "修复本地后端长期运行后连接断开导致页面提示 Failed to fetch 的问题。",
-    "修复文件夹切换时列表选中音效高亮闪烁的问题。",
-    "优化启动阶段数据库短暂断线的自动恢复，只有数据库损坏、不可读取或空库才会阻塞启动。",
-    "优化文件夹切换时的列表绘制和选中状态保持。"
+    "修复播放列表加入、移除和排序请求字段不一致导致的错误。",
+    "修复失效播放列表 ID 反复请求造成的 404 提示。",
+    "优化 DEV 模式下 FastAPI 参数错误的显示方式。",
+    "优化波形列表和搜索结果的本地缓存加载。",
+    "修复清空搜索关键词后不能立即恢复原目录的问题。",
+    "主要安装包下载入口切换到 GitHub Release。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.3.8",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.8/SonicLab_Flow_v0.3.8_mac_arm64_installer.dmg",
-      "sha256": "0f9516249883cab66ff3bcd6a5a3bc1c0dac3d5efcfa47f39b5a97185e4bdef6"
+      "version": "0.3.9",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.9/SonicLab_Flow_v0.3.9_mac_arm64_installer.dmg",
+      "sha256": "b7b8e04813f3689bd518915a60dca09b7d1008eead45120c4eb41e6d16ff5177"
     },
     "mac_x64": {
-      "version": "0.3.8",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.8/SonicLab_Flow_v0.3.8_intel_mac_installer.dmg",
-      "sha256": "e567700ce9db151d3c009d8ed22cac1df9ff8fcbaf87c12634f02651fe576f92"
+      "version": "0.3.9",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.9/SonicLab_Flow_v0.3.9_intel_mac_installer.dmg",
+      "sha256": "5ffe7385fe316d83f5f0e4507196534541e46b8ef11c2fccf235c9584b184a47"
     },
     "win_x64": {
-      "version": "0.3.8",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.8/SonicLab_Flow_v0.3.8_windows_setup.exe",
-      "sha256": "fd399977d2dfff951d1dd3baf9cbf26dcdcbdbe986478d979aeac64fffe82505"
+      "version": "0.3.9",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.3.9/SonicLab_Flow_v0.3.9_windows_setup.exe",
+      "sha256": "8248cf41e5b54604e8930c39752d2377b32d32db5514680caf67aebbadf07303"
     }
   }
 }
