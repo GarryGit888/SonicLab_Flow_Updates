@@ -1,6 +1,6 @@
 {
   "version": "0.4.1",
-  "publishedAt": "2026-08-07T13:50:09.522Z",
+  "publishedAt": "2026-08-07T15:16:55Z",
   "distributionMode": "installers-only",
   "notes": [
     "修复 AI 供应商、默认模型和 API Key 配置在重启后可能漂移的问题。",
@@ -12,22 +12,22 @@
   "channels": {
     "mac_arm64": {
       "version": "0.4.1",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_mac_arm64_installer.dmg",
-      "sha256": "31409c469f9ffab4e6f85a8f760f46b2afce5d79d3dc64d4f7a4ef181339c11b",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_mac_arm64_installer.dmg",
+      "sha256": "2f2c46811323c245884086c432554b06bc05d2f2b33f1999e348127c49674ce5",
       "file": "SonicLab_Flow_v0.4.1_mac_arm64_installer.dmg",
       "packageType": "dmg"
     },
     "mac_x64": {
       "version": "0.4.1",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_intel_mac_installer.dmg",
-      "sha256": "0caa88baa10e82af40ff95e6fe093e44da669c9623bf92cfc1ea1252993ff471",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_intel_mac_installer.dmg",
+      "sha256": "ff87035b429a358b82161eb76a645560bdb9dafc6f5e042913d45a2928429a53",
       "file": "SonicLab_Flow_v0.4.1_intel_mac_installer.dmg",
       "packageType": "dmg"
     },
     "win_x64": {
       "version": "0.4.1",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_windows_setup.exe",
-      "sha256": "5414322e6c30641e3df86d0b5406b2e2efd623f2a9aeaf59e0e3e7cd14d1a6ec",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_windows_setup.exe",
+      "sha256": "ce9b2fc8ae753cb8cc09385ee6fb37780e1d44a6a919c354ded09ff53019e635",
       "file": "SonicLab_Flow_v0.4.1_windows_setup.exe",
       "packageType": "exe"
     }
