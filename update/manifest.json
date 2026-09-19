@@ -1,40 +1,64 @@
 {
-  "version": "0.4.1",
-  "publishedAt": "2026-08-07T15:16:55Z",
+  "version": "0.5.2",
+  "publishedAt": "2026-09-19T16:42:47Z",
   "distributionMode": "installers-only",
-  "notes": [
-    "修复 AI 供应商、默认模型和 API Key 配置在重启后可能漂移的问题。",
-    "优化 DeepSeek 翻译、批量任务调度、模型切换和停止任务体验。",
-    "AI 设置新增 TOKEN 计量和供应商就绪诊断。",
-    "提供 macOS Apple Silicon、macOS Intel 和 Windows x64 安装包下载。"
-  ],
   "mandatory": false,
-  "channels": {
+  "notes": [
+    "修复剪映缓存重新分析时可能丢失素材链接的问题。",
+    "优化文件浏览、滚动加载、波形缓存和播放响应速度。",
+    "改进批量重命名、回收站和元数据写入的稳定性。",
+    "提供 macOS Apple Silicon、macOS Intel 和 Windows x64 内测安装包。"
+  ],
+  "installers": {
     "mac_arm64": {
-      "version": "0.4.1",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_mac_arm64_installer.dmg",
-      "sha256": "2f2c46811323c245884086c432554b06bc05d2f2b33f1999e348127c49674ce5",
-      "file": "SonicLab_Flow_v0.4.1_mac_arm64_installer.dmg",
+      "file": "SonicLab_Flow_v0.5.2_mac_arm64_installer.dmg",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.5.2/SonicLab_Flow_v0.5.2_mac_arm64_installer.dmg",
+      "sha256": "38b6d93cc8c6f3f93f097d3819f75b6e2d0038ee38321e664f9df35131c34b4b",
+      "size": 385759451,
+      "version": "0.5.2",
       "packageType": "dmg"
     },
     "mac_x64": {
-      "version": "0.4.1",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_intel_mac_installer.dmg",
-      "sha256": "ff87035b429a358b82161eb76a645560bdb9dafc6f5e042913d45a2928429a53",
-      "file": "SonicLab_Flow_v0.4.1_intel_mac_installer.dmg",
+      "file": "SonicLab_Flow_v0.5.2_intel_mac_installer.dmg",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.5.2/SonicLab_Flow_v0.5.2_intel_mac_installer.dmg",
+      "sha256": "7a9b0987f98a6fdbbb4aacd3996be4e1e0a6ad7dc2fbf7c6bd2aaee9f0a89e84",
+      "size": 406269211,
+      "version": "0.5.2",
       "packageType": "dmg"
     },
     "win_x64": {
-      "version": "0.4.1",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.4.1/SonicLab_Flow_v0.4.1_windows_setup.exe",
-      "sha256": "ce9b2fc8ae753cb8cc09385ee6fb37780e1d44a6a919c354ded09ff53019e635",
-      "file": "SonicLab_Flow_v0.4.1_windows_setup.exe",
+      "file": "SonicLab_Flow_v0.5.2_windows_setup.exe",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.5.2/SonicLab_Flow_v0.5.2_windows_setup.exe",
+      "sha256": "656b04b7ab129440c273a4d3bb2f046603242280357cc4bdc5a4a0f71cfbcfdc",
+      "size": 364679340,
+      "version": "0.5.2",
       "packageType": "exe"
     }
   },
-  "checksums": {
-    "file": "SHA256SUMS_v0.4.1.txt",
-    "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.4.1/SHA256SUMS_v0.4.1.txt",
-    "sha256": "9f5d9a8071733d5047ad763e01f3a8bd032c763e9d2495640b6e0057a04d0bbf"
+  "groupCopy": {
+    "file": "SonicLab_Flow_v0.5.2_GROUP_UPDATE_COPY.md",
+    "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.5.2/SonicLab_Flow_v0.5.2_GROUP_UPDATE_COPY.md",
+    "sha256": "e83b6c1f27de3fd94d461d1ba884c1b6bfde540b30441be9414fa555f627d045",
+    "size": 1942
+  },
+  "channels": {
+    "mac_arm64": {
+      "version": "0.5.2",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.2/SonicLab_Flow_v0.5.2_mac_arm64_installer.dmg",
+      "sha256": "38b6d93cc8c6f3f93f097d3819f75b6e2d0038ee38321e664f9df35131c34b4b",
+      "file": "SonicLab_Flow_v0.5.2_mac_arm64_installer.dmg"
+    },
+    "mac_x64": {
+      "version": "0.5.2",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.2/SonicLab_Flow_v0.5.2_intel_mac_installer.dmg",
+      "sha256": "7a9b0987f98a6fdbbb4aacd3996be4e1e0a6ad7dc2fbf7c6bd2aaee9f0a89e84",
+      "file": "SonicLab_Flow_v0.5.2_intel_mac_installer.dmg"
+    },
+    "win_x64": {
+      "version": "0.5.2",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.2/SonicLab_Flow_v0.5.2_windows_setup.exe",
+      "sha256": "656b04b7ab129440c273a4d3bb2f046603242280357cc4bdc5a4a0f71cfbcfdc",
+      "file": "SonicLab_Flow_v0.5.2_windows_setup.exe"
+    }
   }
 }
