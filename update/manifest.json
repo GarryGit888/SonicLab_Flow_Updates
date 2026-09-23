@@ -1,6 +1,6 @@
 {
-  "version": "0.5.3",
-  "publishedAt": "2026-09-22T03:37:34Z",
+  "version": "0.5.4",
+  "publishedAt": "2026-09-23T03:24:29Z",
   "distributionMode": "installers-only",
   "notes": [
     "新增收藏目录树、网格卡片、资源群组和独立项目工作台。",
@@ -12,24 +12,24 @@
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.5.3",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.3/SonicLab_Flow_v0.5.3_mac_arm64_installer.dmg",
-      "sha256": "1dad600ea52b508df239a4e3ffc4579427bdc15d1a47278dd41739959f3cb6bf",
-      "file": "SonicLab_Flow_v0.5.3_mac_arm64_installer.dmg",
+      "version": "0.5.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.4/SonicLab_Flow_v0.5.4_mac_arm64_installer.dmg",
+      "sha256": "a1a74ca46ecd1682100236129b38eb3e7dac9c729373afce094335a2ea3d0e7c",
+      "file": "SonicLab_Flow_v0.5.4_mac_arm64_installer.dmg",
       "packageType": "dmg"
     },
     "mac_x64": {
-      "version": "0.5.3",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.3/SonicLab_Flow_v0.5.3_intel_mac_installer.dmg",
-      "sha256": "5406827464655d4201d9faed9d74e640743d5e8a1d982dba44aa77dedccc7d1f",
-      "file": "SonicLab_Flow_v0.5.3_intel_mac_installer.dmg",
+      "version": "0.5.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.4/SonicLab_Flow_v0.5.4_intel_mac_installer.dmg",
+      "sha256": "1a1a6823b85399db6212526643fcb40587b2b6fbaeb641c5657eecc7ca890fec",
+      "file": "SonicLab_Flow_v0.5.4_intel_mac_installer.dmg",
       "packageType": "dmg"
     },
     "win_x64": {
-      "version": "0.5.3",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.3/SonicLab_Flow_v0.5.3_windows_setup.exe",
-      "sha256": "246a894ea43f592c5b86b1321708853d9f2aba5093669dc4ecafd6e82a77d3f3",
-      "file": "SonicLab_Flow_v0.5.3_windows_setup.exe",
+      "version": "0.5.4",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.5.4/SonicLab_Flow_v0.5.4_windows_setup.exe",
+      "sha256": "dd9f1358c76c8039e7d04928407ead045d2535381dd6c68bba1f9ffd55797a61",
+      "file": "SonicLab_Flow_v0.5.4_windows_setup.exe",
       "packageType": "exe"
     }
   }
