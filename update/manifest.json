@@ -1,42 +1,43 @@
 {
-  "version": "0.6.5",
-  "publishedAt": "2026-10-17T14:25:51.277Z",
+  "version": "0.6.6",
+  "publishedAt": "2026-10-20T03:55:00.000Z",
   "distributionMode": "installers-only",
   "notes": [
-    "新增「轨道空间」：一键读取 DaVinci Resolve 当前时间线的轨道与片段布局，支持缩放、框选与片段详情查看，全程只读。",
-    "轨道空间中的音频片段可显示来自本地音频库的真实波形，尚未匹配或源文件离线时如实提示。",
-    "轨道空间窗口支持界面语言切换，英文界面下完整显示英文。",
-    "修复搜索回车后堆积大量搜索标签页的问题，现在回车在当前标签页内直接展示结果。",
-    "修复 Windows 上源路径大小写不一致导致轨道空间匹配不到本地音频库的问题。"
+    "轨道空间新增「轨道预设」：把当前 Resolve 时间线存成预设，带轨道布局缩略图，Resolve 没开也能离线查看。",
+    "预设按素材库分开保存，切换素材库互不干扰；支持重命名、复制、删除，最近用过的排在最前。",
+    "修复切换素材库后主列表仍显示上一个库 AI 推荐结果的问题，以及 Token 统计不重置的问题。",
+    "修复「帮我找一下设置在哪」这类提问被当成找音效的问题，AI 助手识图更准确。",
+    "AI 助手对话改为独立通道，等待模型回复时列表、搜索和播放不再卡顿。",
+    "修复轨道空间预设的重命名输入框看不清、名称过长无法复制、文件损坏时看不到原因等问题。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.6.5",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.5/SonicLab_Flow_v0.6.5_mac_arm64_installer.dmg",
-      "sha256": "75030e83a85d9cd24037b9a74fd76a7e234b0ef5f580ffdc1d9f17717eb2cc48",
-      "file": "SonicLab_Flow_v0.6.5_mac_arm64_installer.dmg",
+      "version": "0.6.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_mac_arm64_installer.dmg",
+      "sha256": "d81a2b926545b99b4f73cd23c196b299a2a871a0b398b2fba9dfab6ffaab40e6",
+      "file": "SonicLab_Flow_v0.6.6_mac_arm64_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.5/SonicLab_Flow_v0.6.5_mac_arm64_update.zip",
-      "zipSha256": "91d27600d9cb705478cf2634a9e189af83636ba3955fb251121575fddf9a0e35"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_mac_arm64_update.zip",
+      "zipSha256": "e1268129e3fa524e65b56d6468a3c9f2cb66049fce52148bad44158751e109fa"
     },
     "mac_x64": {
-      "version": "0.6.5",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.5/SonicLab_Flow_v0.6.5_intel_mac_installer.dmg",
-      "sha256": "ec4d0a9fcbe1841d49fd76b9b81da1a69a1b46a1157b5ef63e1565919afe3dd1",
-      "file": "SonicLab_Flow_v0.6.5_intel_mac_installer.dmg",
+      "version": "0.6.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_intel_mac_installer.dmg",
+      "sha256": "2137874572ceabaa3e5c6763151db95a2d72aa9a7309d454cb9e44d3e94cd9fc",
+      "file": "SonicLab_Flow_v0.6.6_intel_mac_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.5/SonicLab_Flow_v0.6.5_intel_mac_update.zip",
-      "zipSha256": "56568ec2f967319b92c3ecd644aa395851e9e11960440b41ab49e560d93c471a"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_intel_mac_update.zip",
+      "zipSha256": "415282bf931b6b33b44d288bc453fd26b1110ded4a41e3e819053664effed88b"
     },
     "win_x64": {
-      "version": "0.6.5",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.5/SonicLab_Flow_v0.6.5_windows_setup.exe",
-      "sha256": "84bb140f78f4f086ec386dc498c7bf1e9b2e4edda364431527cf331b6251f20b",
-      "file": "SonicLab_Flow_v0.6.5_windows_setup.exe",
+      "version": "0.6.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_windows_setup.exe",
+      "sha256": "10b2ca0dc0db93a451a6c752093b03341a1651f386a7bf26717f095afad3e72a",
+      "file": "SonicLab_Flow_v0.6.6_windows_setup.exe",
       "packageType": "exe",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.5/SonicLab_Flow_v0.6.5_windows_update.zip",
-      "zipSha256": "fe50f9d1bf18b8750d2831ff78235264f554f0c96047657c947ea49bbe3d21b7"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_windows_update.zip",
+      "zipSha256": "a8d087f4143963a0fd0fced3f768d328aae9b8029309e1173150f8f0e2330b36"
     }
   }
 }
