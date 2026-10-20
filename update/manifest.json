@@ -1,6 +1,6 @@
 {
   "version": "0.6.6",
-  "publishedAt": "2026-10-20T03:55:00.000Z",
+  "publishedAt": "2026-10-20T04:39:58.060Z",
   "distributionMode": "installers-only",
   "notes": [
     "轨道空间新增「轨道预设」：把当前 Resolve 时间线存成预设，带轨道布局缩略图，Resolve 没开也能离线查看。",
@@ -14,29 +14,29 @@
   "channels": {
     "mac_arm64": {
       "version": "0.6.6",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_mac_arm64_installer.dmg",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_mac_arm64_installer.dmg",
       "sha256": "d81a2b926545b99b4f73cd23c196b299a2a871a0b398b2fba9dfab6ffaab40e6",
       "file": "SonicLab_Flow_v0.6.6_mac_arm64_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_mac_arm64_update.zip",
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_mac_arm64_update.zip",
       "zipSha256": "e1268129e3fa524e65b56d6468a3c9f2cb66049fce52148bad44158751e109fa"
     },
     "mac_x64": {
       "version": "0.6.6",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_intel_mac_installer.dmg",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_intel_mac_installer.dmg",
       "sha256": "2137874572ceabaa3e5c6763151db95a2d72aa9a7309d454cb9e44d3e94cd9fc",
       "file": "SonicLab_Flow_v0.6.6_intel_mac_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_intel_mac_update.zip",
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_intel_mac_update.zip",
       "zipSha256": "415282bf931b6b33b44d288bc453fd26b1110ded4a41e3e819053664effed88b"
     },
     "win_x64": {
       "version": "0.6.6",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_windows_setup.exe",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_windows_setup.exe",
       "sha256": "10b2ca0dc0db93a451a6c752093b03341a1651f386a7bf26717f095afad3e72a",
       "file": "SonicLab_Flow_v0.6.6_windows_setup.exe",
       "packageType": "exe",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_windows_update.zip",
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_windows_update.zip",
       "zipSha256": "a8d087f4143963a0fd0fced3f768d328aae9b8029309e1173150f8f0e2330b36"
     }
   }
