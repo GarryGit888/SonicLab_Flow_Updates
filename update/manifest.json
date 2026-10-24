@@ -1,6 +1,6 @@
 {
   "version": "0.6.7",
-  "publishedAt": "2026-10-24T03:07:21.153Z",
+  "publishedAt": "2026-10-24T13:42:23.207Z",
   "distributionMode": "installers-only",
   "notes": [
     "修复大型素材库同步扫描收尾阶段工作台标签保存失败、试听状态无法标记、设置修改被拒绝的问题。",
@@ -33,11 +33,11 @@
     "win_x64": {
       "version": "0.6.7",
       "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_windows_setup.exe",
-      "sha256": "c01db7b676e41d2c8a2f024e687fb7cef4c49c5394d7b5670c8e762989ab7b55",
+      "sha256": "96ca70858532d92283d1e632485c68e47569ae62032c683c170a77466aed0300",
       "file": "SonicLab_Flow_v0.6.7_windows_setup.exe",
       "packageType": "exe",
       "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_windows_update.zip",
-      "zipSha256": "2413b58a60ab7a65960fdb9861503179aa27418ec04a25a8a2b84b0f779dee14"
+      "zipSha256": "22e764ba35cd58031beac7993e2ce55db41d850ff349ff638758890970603646"
     }
   }
 }
