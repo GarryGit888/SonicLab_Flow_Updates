@@ -1,43 +1,43 @@
 {
-  "version": "0.6.6",
-  "publishedAt": "2026-10-20T04:39:58.060Z",
+  "version": "0.6.7",
+  "publishedAt": "2026-10-24T03:07:21.153Z",
   "distributionMode": "installers-only",
   "notes": [
-    "轨道空间新增「轨道预设」：把当前 Resolve 时间线存成预设，带轨道布局缩略图，Resolve 没开也能离线查看。",
-    "预设按素材库分开保存，切换素材库互不干扰；支持重命名、复制、删除，最近用过的排在最前。",
-    "修复切换素材库后主列表仍显示上一个库 AI 推荐结果的问题，以及 Token 统计不重置的问题。",
-    "修复「帮我找一下设置在哪」这类提问被当成找音效的问题，AI 助手识图更准确。",
-    "AI 助手对话改为独立通道，等待模型回复时列表、搜索和播放不再卡顿。",
-    "修复轨道空间预设的重命名输入框看不清、名称过长无法复制、文件损坏时看不到原因等问题。"
+    "修复大型素材库同步扫描收尾阶段工作台标签保存失败、试听状态无法标记、设置修改被拒绝的问题。",
+    "修复扫描期间打开或刷新软件时频繁提示「数据库正忙」的问题。",
+    "大型素材库扫描期间，保存工作台标签、标记试听状态、修改设置等操作可以正常穿插完成。",
+    "修复 CLAP 组件安装失败时只显示「安装失败」、看不到具体原因的问题，现在会显示完整错误信息。",
+    "CLAP 依赖安装新增阿里云下载源，单一源不可用时自动切换，安装成功率更高。",
+    "修复扫描清理已删除音频时长时间占用数据库的问题，扫描期间操作响应更快。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.6.6",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_mac_arm64_installer.dmg",
-      "sha256": "d81a2b926545b99b4f73cd23c196b299a2a871a0b398b2fba9dfab6ffaab40e6",
-      "file": "SonicLab_Flow_v0.6.6_mac_arm64_installer.dmg",
+      "version": "0.6.7",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_mac_arm64_installer.dmg",
+      "sha256": "11b78a152132da5e5330200fa45f460240bd69e28cb694e249fcb0e543f1941a",
+      "file": "SonicLab_Flow_v0.6.7_mac_arm64_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_mac_arm64_update.zip",
-      "zipSha256": "e1268129e3fa524e65b56d6468a3c9f2cb66049fce52148bad44158751e109fa"
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_mac_arm64_update.zip",
+      "zipSha256": "ef2470df6c736c426616a8b60d71297a97e6e35e1a45b58914446a8f8c0618a4"
     },
     "mac_x64": {
-      "version": "0.6.6",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_intel_mac_installer.dmg",
-      "sha256": "2137874572ceabaa3e5c6763151db95a2d72aa9a7309d454cb9e44d3e94cd9fc",
-      "file": "SonicLab_Flow_v0.6.6_intel_mac_installer.dmg",
+      "version": "0.6.7",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_intel_mac_installer.dmg",
+      "sha256": "148df795f730322c8e78d245b55c9736ac1e4b8a563ca65069e2780ab8856164",
+      "file": "SonicLab_Flow_v0.6.7_intel_mac_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_intel_mac_update.zip",
-      "zipSha256": "415282bf931b6b33b44d288bc453fd26b1110ded4a41e3e819053664effed88b"
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_intel_mac_update.zip",
+      "zipSha256": "692b1aa9f9cf1ad64eaf00bf2861ce3cba3e7a506ecd7981be92b32ebf9773fb"
     },
     "win_x64": {
-      "version": "0.6.6",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_windows_setup.exe",
-      "sha256": "10b2ca0dc0db93a451a6c752093b03341a1651f386a7bf26717f095afad3e72a",
-      "file": "SonicLab_Flow_v0.6.6_windows_setup.exe",
+      "version": "0.6.7",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_windows_setup.exe",
+      "sha256": "c01db7b676e41d2c8a2f024e687fb7cef4c49c5394d7b5670c8e762989ab7b55",
+      "file": "SonicLab_Flow_v0.6.7_windows_setup.exe",
       "packageType": "exe",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.6/SonicLab_Flow_v0.6.6_windows_update.zip",
-      "zipSha256": "a8d087f4143963a0fd0fced3f768d328aae9b8029309e1173150f8f0e2330b36"
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_windows_update.zip",
+      "zipSha256": "2413b58a60ab7a65960fdb9861503179aa27418ec04a25a8a2b84b0f779dee14"
     }
   }
 }
