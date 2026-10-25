@@ -1,6 +1,6 @@
 {
   "version": "0.6.7",
-  "publishedAt": "2026-10-24T13:42:23.207Z",
+  "publishedAt": "2026-10-25T06:29:11.715Z",
   "distributionMode": "installers-only",
   "notes": [
     "修复大型素材库同步扫描收尾阶段工作台标签保存失败、试听状态无法标记、设置修改被拒绝的问题。",
@@ -8,7 +8,9 @@
     "大型素材库扫描期间，保存工作台标签、标记试听状态、修改设置等操作可以正常穿插完成。",
     "修复 CLAP 组件安装失败时只显示「安装失败」、看不到具体原因的问题，现在会显示完整错误信息。",
     "CLAP 依赖安装新增阿里云下载源，单一源不可用时自动切换，安装成功率更高。",
-    "修复扫描清理已删除音频时长时间占用数据库的问题，扫描期间操作响应更快。"
+    "修复扫描清理已删除音频时长时间占用数据库的问题，扫描期间操作响应更快。",
+    "修复 Windows 安装过程中无法关闭已运行 SonicLab Flow、安装无法继续的问题。",
+    "大幅精简 Windows 安装包内容，安装解压速度明显提升，进度不再长时间停顿。"
   ],
   "mandatory": false,
   "channels": {
@@ -33,11 +35,11 @@
     "win_x64": {
       "version": "0.6.7",
       "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_windows_setup.exe",
-      "sha256": "96ca70858532d92283d1e632485c68e47569ae62032c683c170a77466aed0300",
+      "sha256": "98f8f9d6c3536f29c124dea098d2ae1d37735add2c57f2e65cdf5313e04717a4",
       "file": "SonicLab_Flow_v0.6.7_windows_setup.exe",
       "packageType": "exe",
       "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_windows_update.zip",
-      "zipSha256": "22e764ba35cd58031beac7993e2ce55db41d850ff349ff638758890970603646"
+      "zipSha256": "cce6032ce7d2d492cebca84b463d32386e784bebcdc29caf237856d3ead1ed53"
     }
   }
 }
