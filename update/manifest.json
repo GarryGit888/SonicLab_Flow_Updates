@@ -1,45 +1,43 @@
 {
-  "version": "0.6.7",
-  "publishedAt": "2026-10-25T06:29:11.715Z",
+  "version": "0.6.8",
   "distributionMode": "installers-only",
   "notes": [
-    "修复大型素材库同步扫描收尾阶段工作台标签保存失败、试听状态无法标记、设置修改被拒绝的问题。",
-    "修复扫描期间打开或刷新软件时频繁提示「数据库正忙」的问题。",
-    "大型素材库扫描期间，保存工作台标签、标记试听状态、修改设置等操作可以正常穿插完成。",
-    "修复 CLAP 组件安装失败时只显示「安装失败」、看不到具体原因的问题，现在会显示完整错误信息。",
-    "CLAP 依赖安装新增阿里云下载源，单一源不可用时自动切换，安装成功率更高。",
-    "修复扫描清理已删除音频时长时间占用数据库的问题，扫描期间操作响应更快。",
-    "修复 Windows 安装过程中无法关闭已运行 SonicLab Flow、安装无法继续的问题。",
-    "大幅精简 Windows 安装包内容，安装解压速度明显提升，进度不再长时间停顿。"
+    "修复 Windows Python 3.13 环境安装 CLAP 时依赖冲突导致长时间卡住的问题。",
+    "CLAP 依赖下载源异常时会自动切换镜像重试。",
+    "修复数据库繁忙时工作区标签未保存却被误认为成功的问题。",
+    "工作区标签内容未变化时跳过重复写入，减少无效数据库操作。",
+    "修复不同长度文本一起进行 BGE 语义编码时失败的问题。",
+    "延长大型素材库扫描期间的数据库写入等待时间。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.6.7",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_mac_arm64_installer.dmg",
-      "sha256": "11b78a152132da5e5330200fa45f460240bd69e28cb694e249fcb0e543f1941a",
-      "file": "SonicLab_Flow_v0.6.7_mac_arm64_installer.dmg",
+      "version": "0.6.8",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_mac_arm64_installer.dmg",
+      "sha256": "d3065f21472eb1260af985c1157553ef7c244c03b19eb9ddd726880223d3dc7e",
+      "file": "SonicLab_Flow_v0.6.8_mac_arm64_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_mac_arm64_update.zip",
-      "zipSha256": "ef2470df6c736c426616a8b60d71297a97e6e35e1a45b58914446a8f8c0618a4"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_mac_arm64_update.zip",
+      "zipSha256": "3a9f67d2ce23da81ca9f61260fceab0aa629b82bf2b7ecfdd3abb4526cf6a685"
     },
     "mac_x64": {
-      "version": "0.6.7",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_intel_mac_installer.dmg",
-      "sha256": "148df795f730322c8e78d245b55c9736ac1e4b8a563ca65069e2780ab8856164",
-      "file": "SonicLab_Flow_v0.6.7_intel_mac_installer.dmg",
+      "version": "0.6.8",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_intel_mac_installer.dmg",
+      "sha256": "70a16cca3b426abb607f7551cfd63bd5b2f81bf9b8f23be2847ae4f7666697c8",
+      "file": "SonicLab_Flow_v0.6.8_intel_mac_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_intel_mac_update.zip",
-      "zipSha256": "692b1aa9f9cf1ad64eaf00bf2861ce3cba3e7a506ecd7981be92b32ebf9773fb"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_intel_mac_update.zip",
+      "zipSha256": "21ee1d2e9d9f59460f19b2464a4fc49eb2d1e26f718defb43abda49814c6f82f"
     },
     "win_x64": {
-      "version": "0.6.7",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_windows_setup.exe",
-      "sha256": "98f8f9d6c3536f29c124dea098d2ae1d37735add2c57f2e65cdf5313e04717a4",
-      "file": "SonicLab_Flow_v0.6.7_windows_setup.exe",
+      "version": "0.6.8",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_windows_setup.exe",
+      "sha256": "cdb1ee69c6c38987b8cf52c93d1bef24f4bb415c501e4965fe17024147d2d1d3",
+      "file": "SonicLab_Flow_v0.6.8_windows_setup.exe",
       "packageType": "exe",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.6.7/SonicLab_Flow_v0.6.7_windows_update.zip",
-      "zipSha256": "cce6032ce7d2d492cebca84b463d32386e784bebcdc29caf237856d3ead1ed53"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_windows_update.zip",
+      "zipSha256": "65f680889a43b05a2789c837117e988dcbedb9f19a46589ce31eac987cc03f90"
     }
-  }
+  },
+  "publishedAt": "2026-10-26T10:34:05.416Z"
 }
