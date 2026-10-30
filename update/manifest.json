@@ -1,43 +1,45 @@
 {
-  "version": "0.6.8",
+  "version": "0.6.9",
   "distributionMode": "installers-only",
   "notes": [
-    "修复 Windows Python 3.13 环境安装 CLAP 时依赖冲突导致长时间卡住的问题。",
-    "CLAP 依赖下载源异常时会自动切换镜像重试。",
-    "修复数据库繁忙时工作区标签未保存却被误认为成功的问题。",
-    "工作区标签内容未变化时跳过重复写入，减少无效数据库操作。",
-    "修复不同长度文本一起进行 BGE 语义编码时失败的问题。",
-    "延长大型素材库扫描期间的数据库写入等待时间。"
+    "新增 FreeSound OAuth2 免费登录：在设置中保存 Client 信息并完成一次授权登录，即可长期下载 FreeSound 原文件，登录凭证自动续期，无需手动维护下载 token。",
+    "未配置下载授权时，FreeSound 详情面板提供直达连接设置的入口，按引导三步即可完成登录。",
+    "修复 FreeSound 音频下载失败时误报「API key 无效」的问题，现按官方规则明确提示需要 OAuth2 下载授权。",
+    "修复 FreeSound 试听波形在深色界面下显示为空黑的问题。",
+    "修复扫描批量写库遇到数据库繁忙时长时间独占写锁，导致扫描期间收藏、标签、播放状态保存被拖慢的问题。",
+    "修复扫描收尾的目录统计更新失败时，把已经索引完成的扫描整体误报为失败的问题。",
+    "FreeSound 详情面板重设计：去除重复时间轴、描述支持展开收起、标签改为胶囊样式、许可证显示为短名。",
+    "主界面工具栏更紧凑：AI智能改为带主题色外框的图标按钮并移至元数据左侧，Waveform 更名为「波形」，轨道空间启用专属图标，新增分组分隔线，按钮间距整体收紧。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.6.8",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_mac_arm64_installer.dmg",
-      "sha256": "d3065f21472eb1260af985c1157553ef7c244c03b19eb9ddd726880223d3dc7e",
-      "file": "SonicLab_Flow_v0.6.8_mac_arm64_installer.dmg",
+      "version": "0.6.9",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_mac_arm64_installer.dmg",
+      "sha256": "9917f44d19c57431cd9b4362c45e7fbc165c52ad211d307be459e0e09be29b36",
+      "file": "SonicLab_Flow_v0.6.9_mac_arm64_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_mac_arm64_update.zip",
-      "zipSha256": "3a9f67d2ce23da81ca9f61260fceab0aa629b82bf2b7ecfdd3abb4526cf6a685"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_mac_arm64_update.zip",
+      "zipSha256": "25ba35aede72095493f195b3e04a802ea43706278102361a2a8f48e532eb1782"
     },
     "mac_x64": {
-      "version": "0.6.8",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_intel_mac_installer.dmg",
-      "sha256": "70a16cca3b426abb607f7551cfd63bd5b2f81bf9b8f23be2847ae4f7666697c8",
-      "file": "SonicLab_Flow_v0.6.8_intel_mac_installer.dmg",
+      "version": "0.6.9",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_intel_mac_installer.dmg",
+      "sha256": "83a6e09953c297030dc1d7f99f43652de2e2952ba68d0cfe7ac8b89bc5b1b018",
+      "file": "SonicLab_Flow_v0.6.9_intel_mac_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_intel_mac_update.zip",
-      "zipSha256": "21ee1d2e9d9f59460f19b2464a4fc49eb2d1e26f718defb43abda49814c6f82f"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_intel_mac_update.zip",
+      "zipSha256": "6e88f8652dd46adf40e3f16bab638f16fe57b783a5eb93d74472f8db5cd0e3ca"
     },
     "win_x64": {
-      "version": "0.6.8",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_windows_setup.exe",
-      "sha256": "cdb1ee69c6c38987b8cf52c93d1bef24f4bb415c501e4965fe17024147d2d1d3",
-      "file": "SonicLab_Flow_v0.6.8_windows_setup.exe",
+      "version": "0.6.9",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_windows_setup.exe",
+      "sha256": "9fb53d576caadd60dfd9691dac3fee022cf2ae270b08a8de5ec0f864df107b60",
+      "file": "SonicLab_Flow_v0.6.9_windows_setup.exe",
       "packageType": "exe",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.8/SonicLab_Flow_v0.6.8_windows_update.zip",
-      "zipSha256": "65f680889a43b05a2789c837117e988dcbedb9f19a46589ce31eac987cc03f90"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_windows_update.zip",
+      "zipSha256": "3857aef1244bf7c798ca46d7830d201f317686b93df4a30fc460489c1bb4085c"
     }
   },
-  "publishedAt": "2026-10-26T10:34:05.416Z"
+  "publishedAt": "2026-10-29T12:21:03.153Z"
 }
