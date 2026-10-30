@@ -10,8 +10,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Release-v0.6.9_BETA-7C6FF7?style=flat-square" alt="v0.6.9 Beta">
-  <img src="https://img.shields.io/badge/macOS-10.15%2B-111318?style=flat-square&logo=apple" alt="macOS 10.15+">
-  <img src="https://img.shields.io/badge/Windows-10%2B_x64-111318?style=flat-square&logo=windows11" alt="Windows 10+ x64">
+  <img src="https://img.shields.io/badge/macOS-10.15%2B-111318?style=flat-square" alt="macOS 10.15+">
+  <img src="https://img.shields.io/badge/Windows-10%2B_x64-111318?style=flat-square" alt="Windows 10+ x64">
   <img src="https://img.shields.io/badge/Closed--source-All_rights_reserved-1F9D75?style=flat-square" alt="Closed source">
 </p>
 
