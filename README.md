@@ -4,13 +4,13 @@
 <p align="center">检索、试听、整理、交付 —— 万级音效素材，在一台机器上完成。</p>
 
 <p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/简体中文-7C6FF7?style=for-the-badge&labelColor=15171C" alt="简体中文"></a>
-  <a href="./README_EN.md"><img src="https://img.shields.io/badge/English-2B2F38?style=for-the-badge&labelColor=15171C" alt="English"></a>
+  <a href="./README.md"><img src="./assets/badge-lang-zh-active.svg" alt="简体中文"></a>
+  <a href="./README_EN.md"><img src="./assets/badge-lang-en.svg" alt="English"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/当前版本-v0.6.9_BETA-7C6FF7?style=flat-square" alt="v0.6.9 Beta">
-  <img src="https://img.shields.io/badge/Closed--source-All_rights_reserved-1F9D75?style=flat-square" alt="闭源软件">
+  <img src="./assets/badge-version-zh.svg" alt="v0.6.9 Beta">
+  <img src="./assets/badge-closed.svg" alt="闭源软件">
 </p>
 
 <p align="center"><a href="https://garrygit888.github.io/SonicLab_Flow_Updates/">产品官网</a> · <a href="https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/tag/v0.6.9">CNB 下载</a> · <a href="https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/tag/v0.6.9">GitHub 下载</a> · <a href="#联系开发者">联系开发者</a></p>
