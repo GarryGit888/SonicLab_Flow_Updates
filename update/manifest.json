@@ -52,14 +52,14 @@
       "zipSha256": "15021c7e373dde78b345471b2e65c67c1a50e3cd2854af8ff02e4165874f2015"
     },
     "win_x64": {
-      "version": "0.6.9",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_windows_setup.exe",
-      "sha256": "9fb53d576caadd60dfd9691dac3fee022cf2ae270b08a8de5ec0f864df107b60",
-      "file": "SonicLab_Flow_v0.6.9_windows_setup.exe",
+      "version": "0.7.3",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.3/SonicLab_Flow_v0.7.3_windows_setup.exe",
+      "sha256": "87222bbd6cfed5554aff2582729ed899b209a6749a7362bc17a489eb854a299b",
+      "file": "SonicLab_Flow_v0.7.3_windows_setup.exe",
       "packageType": "exe",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_windows_update.zip",
-      "zipSha256": "3857aef1244bf7c798ca46d7830d201f317686b93df4a30fc460489c1bb4085c"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.3/SonicLab_Flow_v0.7.3_windows_update.zip",
+      "zipSha256": "ec6a8c4f0da3e481d483c9c6064836b3a1458a6ce19ec5a6a3ed42d4c750c5bc"
     }
   },
-  "publishedAt": "2026-11-02T07:09:17.368Z"
+  "publishedAt": "2026-11-02T08:17:48.961Z"
 }
