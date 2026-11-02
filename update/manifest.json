@@ -1,0 +1,65 @@
+{
+  "version": "0.7.3",
+  "distributionMode": "installers-only",
+  "notes": [
+    "支持在左侧文件夹右键菜单中置顶子文件夹，置顶项显示在所属文件夹的同级顶部，并显示图钉图标。",
+    "支持取消文件夹置顶，且不影响当前名称或手动排序设置。",
+    "修复导入剪映缓存目录或扫描素材库时可能中断的问题。",
+    "修复缓存清理异常后，部分音频误显示「波形加载失败」的问题。",
+    "修复外部素材库离线时，智能搜索和 AI Agent 仍返回离线文件的问题。",
+    "修复 AI 搜索结果缺少收藏、Flag、中文名、标签、BPM 和调子状态的问题。",
+    "修复按文件夹进行智能搜索时，只匹配当前目录、不包含子目录的问题。",
+    "修复全局翻译在全部素材已有 AI 信息时打开空确认框的问题。",
+    "修复 AI 增量索引只更新旧版 CLAP、不更新语义文本索引的问题。",
+    "优化智能搜索同时等待两套语义结果时的响应速度。",
+    "优化连续输入搜索时的稳定性，避免搜索排队拖慢列表、试听和文件夹切换。",
+    "修复中文短语中间词可能搜不到的问题，例如「窗户」现在可以找到「下雨打在窗户上」。",
+    "修复搜索索引过期或查询异常时结果被错误判空的问题。",
+    "修复「全局文件搜索」误命中标签、AI 描述和元数据的问题，现在只匹配文件名与路径。",
+    "补充智能搜索对元数据标题、UCS 子分类、音乐关键词和音乐描述的识别。",
+    "优化长自然语言搜索，尾部概念不再因固定截断而丢失。",
+    "优化智能搜索对泛化英文同义词的限制，减少无关结果带出整库。",
+    "优化 Classic 中文搜索准确性，无法可靠进行子串匹配时自动改用完整文本匹配。",
+    "修复 AI 翻译更新中文名、标签或描述后，智能搜索长时间用不到新内容的问题，现在会自动识别变化并重新建立语义索引。",
+    "修复智能搜索结果不再显示「语义相似度」百分比的问题。",
+    "修复搜索结果匹配来源提示显示英文内部名称的问题，现在显示「音频内容」「文本语义」「转写文本」。",
+    "修复点击文件夹浏览时偶尔提示「搜索请求过于频繁」的问题。",
+    "修复旧版本音效库缺少 AI 字段时，语义索引无法建立的问题。",
+    "优化首次启动后的 AI 增量索引，不再处理已断开的外置硬盘素材，索引更快。",
+    "优化 AI 增量索引完成后的清理，自动移除已删除或已过期的语义向量，减少无效数据占用。",
+    "修复不支持的音频格式进入声音语义索引后反复失败的问题；这些文件仍可参与文本语义搜索。",
+    "修复只建立音频、文本或转写索引时，智能搜索错误地回退到旧版语义搜索的问题。",
+    "优化语义索引失败反馈，显示有限数量的文件名和错误原因，并隐藏本地完整路径。"
+  ],
+  "mandatory": false,
+  "channels": {
+    "mac_arm64": {
+      "version": "0.7.3",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.3/SonicLab_Flow_v0.7.3_mac_arm64_installer.dmg",
+      "sha256": "9456efcdc4e7882bb23d5e4248d29b482eb21eb970faa797fa84a49e2aac5236",
+      "file": "SonicLab_Flow_v0.7.3_mac_arm64_installer.dmg",
+      "packageType": "dmg",
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.3/SonicLab_Flow_v0.7.3_mac_arm64_update.zip",
+      "zipSha256": "642513b4931918aa7108e20f8ea0cf63d74a36f7485ee672dc056336a397834e"
+    },
+    "mac_x64": {
+      "version": "0.7.3",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.3/SonicLab_Flow_v0.7.3_intel_mac_installer.dmg",
+      "sha256": "4007b90efa8ab8f95876172cdbb2c8cb1d0aaa3460bc226ea4170e5c1c3c57c2",
+      "file": "SonicLab_Flow_v0.7.3_intel_mac_installer.dmg",
+      "packageType": "dmg",
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.3/SonicLab_Flow_v0.7.3_intel_mac_update.zip",
+      "zipSha256": "15021c7e373dde78b345471b2e65c67c1a50e3cd2854af8ff02e4165874f2015"
+    },
+    "win_x64": {
+      "version": "0.6.9",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_windows_setup.exe",
+      "sha256": "9fb53d576caadd60dfd9691dac3fee022cf2ae270b08a8de5ec0f864df107b60",
+      "file": "SonicLab_Flow_v0.6.9_windows_setup.exe",
+      "packageType": "exe",
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.6.9/SonicLab_Flow_v0.6.9_windows_update.zip",
+      "zipSha256": "3857aef1244bf7c798ca46d7830d201f317686b93df4a30fc460489c1bb4085c"
+    }
+  },
+  "publishedAt": "2026-11-02T07:09:17.368Z"
+}
