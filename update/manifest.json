@@ -1,48 +1,44 @@
 {
-  "version": "0.7.4",
+  "version": "0.7.5",
   "distributionMode": "installers-only",
   "notes": [
-    "修复选区音频拖入 DaVinci Resolve 时可能读到零字节或未完成 WAV，导致导入失败的问题。",
-    "修复 Electron DEV 热更新期间 preload 桥接短暂未就绪导致语言初始化报错的问题。",
-    "修复连续搜索后旧查询继续占用后端资源，造成列表、详情和试听请求变慢的问题。",
-    "修复 Resolve 导入、Media Pool 导入、撤销和外部集成请求超时后仍可重复提交，导致后台同时执行多个操作的问题。",
-    "修复选区导出并发写入 manifest 或编号文件时可能互相覆盖的问题。",
-    "选区片段现在先完成导出并校验文件大小，再启动系统原生拖拽。",
-    "搜索请求使用独立有界通道，通道繁忙时快速返回并保留最新请求重试能力。",
-    "Resolve 和外部集成使用单飞执行通道和服务端超时，超时后会保留后台任务状态并阻止重复操作。",
-    "选区导出使用临时文件校验、原子发布和同选区复用，减少拖拽导入卡顿和重复 FFmpeg 渲染。",
-    "健康检查增加搜索通道、Resolve/外部集成状态、请求编号和耗时信息，便于导出诊断包定位后端卡顿。",
-    "Electron 对副作用请求关闭自动重试，避免网络抖动造成重复导入、重复撤销或重复外部操作。"
+    "修复后端短暂繁忙时被误判为崩溃并反复重启的问题。",
+    "修复后端长期无响应时缺少现场诊断信息的问题。",
+    "修复后端异常后界面长时间停留在连接失败状态的问题。",
+    "后端持续无响应时，应用会等待恢复并在必要时自动重启。",
+    "后端发生停摆时，诊断包会保留阻塞线程和调用栈信息。",
+    "优化高频后端日志写入，减少大量日志或较慢磁盘对界面操作的影响。",
+    "优化诊断包导出，导出前会尽量写入仍在排队的后端日志。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.7.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.4/SonicLab_Flow_v0.7.4_mac_arm64_installer.dmg",
-      "sha256": "68af3c829e178e366c4fe39e82453b0a9539da7f6c901d0bb05feef36b1af34f",
-      "file": "SonicLab_Flow_v0.7.4_mac_arm64_installer.dmg",
+      "version": "0.7.5",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_mac_arm64_installer.dmg",
+      "sha256": "bf569594d8072951bbc9397d0ad684a439e101ecd6d41ffd7d6ef2fc0fc8cdbf",
+      "file": "SonicLab_Flow_v0.7.5_mac_arm64_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.4/SonicLab_Flow_v0.7.4_mac_arm64_update.zip",
-      "zipSha256": "b79d76ba79f34bafcbdb26898146daaa7e1274b0f094db4ed6e6e010cc5b7da9"
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_mac_arm64_update.zip",
+      "zipSha256": "34ee5a648d69d7e842b9359b646ce8496037755bda327db34e73942f90df4397"
     },
     "mac_x64": {
-      "version": "0.7.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.4/SonicLab_Flow_v0.7.4_intel_mac_installer.dmg",
-      "sha256": "325aa4746a5732c0cb43a4ec748804c2c0fb1185a1020e8b5859d24094f7e1cd",
-      "file": "SonicLab_Flow_v0.7.4_intel_mac_installer.dmg",
+      "version": "0.7.5",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_intel_mac_installer.dmg",
+      "sha256": "e6e22687f4f3e96262461a8357b546ed7b0616999637d195be872f503d2a8fa0",
+      "file": "SonicLab_Flow_v0.7.5_intel_mac_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.4/SonicLab_Flow_v0.7.4_intel_mac_update.zip",
-      "zipSha256": "99e3bdc994827969c6f502fe39239529e1dd36c3e7066150029c740db298e838"
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_intel_mac_update.zip",
+      "zipSha256": "fd328d776cf7e680ff1e2457ede598d7e7a59cb037a16437b0eb757f0e06362f"
     },
     "win_x64": {
       "version": "0.7.4",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.4/SonicLab_Flow_v0.7.4_windows_setup.exe",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.4/SonicLab_Flow_v0.7.4_windows_setup.exe",
       "sha256": "366305d64af9f3eaf7b72192fae7a6a4691326ad71f80b99f9730a6573a6870b",
       "file": "SonicLab_Flow_v0.7.4_windows_setup.exe",
       "packageType": "exe",
       "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.4/SonicLab_Flow_v0.7.4_windows_update.zip",
-      "zipSha256": "fa34069dcf07562fea886c8cf75d3a5b1a88ea36b3e440d5e6470cebf1a3778b"
+      "zipSha256": "90908c1192627df0f42f4adc2371204e66d50e3a411d5c50263bad6274219550"
     }
   },
-  "publishedAt": "2026-11-07T07:00:18Z"
+  "publishedAt": "2026-11-09T23:41:53.749Z"
 }
