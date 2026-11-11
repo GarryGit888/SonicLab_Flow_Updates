@@ -1,5 +1,5 @@
 {
-  "version": "0.7.5",
+  "version": "0.7.6",
   "distributionMode": "installers-only",
   "notes": [
     "修复后端短暂繁忙时被误判为崩溃并反复重启的问题。",
@@ -14,32 +14,32 @@
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.7.5",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_mac_arm64_installer.dmg",
-      "sha256": "bf569594d8072951bbc9397d0ad684a439e101ecd6d41ffd7d6ef2fc0fc8cdbf",
-      "file": "SonicLab_Flow_v0.7.5_mac_arm64_installer.dmg",
+      "version": "0.7.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.6/SonicLab_Flow_v0.7.6_mac_arm64_installer.dmg",
+      "sha256": "bbd424f881223c866952ac372e5b8622493b0e7f4c7b6198393a7420a1904a3d",
+      "file": "SonicLab_Flow_v0.7.6_mac_arm64_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_mac_arm64_update.zip",
-      "zipSha256": "34ee5a648d69d7e842b9359b646ce8496037755bda327db34e73942f90df4397"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.6/SonicLab_Flow_v0.7.6_mac_arm64_update.zip",
+      "zipSha256": "c5b27b554442ac8e7a34b7425a152d610acdc8848184bc8d9600fbe3effcbc79"
     },
     "mac_x64": {
-      "version": "0.7.5",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_intel_mac_installer.dmg",
-      "sha256": "e6e22687f4f3e96262461a8357b546ed7b0616999637d195be872f503d2a8fa0",
-      "file": "SonicLab_Flow_v0.7.5_intel_mac_installer.dmg",
+      "version": "0.7.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.6/SonicLab_Flow_v0.7.6_intel_mac_installer.dmg",
+      "sha256": "06fa0d3c8a03e98e59e561373e876ea0a78b4790e267f4d2f1e701dc31b33d26",
+      "file": "SonicLab_Flow_v0.7.6_intel_mac_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_intel_mac_update.zip",
-      "zipSha256": "fd328d776cf7e680ff1e2457ede598d7e7a59cb037a16437b0eb757f0e06362f"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.6/SonicLab_Flow_v0.7.6_intel_mac_update.zip",
+      "zipSha256": "9e62628a2a679ceb5c8d8523220ac81c988f936cf20025be36aabad3785aa40d"
     },
     "win_x64": {
-      "version": "0.7.5",
-      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_windows_setup.exe",
-      "sha256": "dacc19955fd70b86f658c0fcd31c39d97e857aeb4dd4ceb26fc06b4a25bbc296",
-      "file": "SonicLab_Flow_v0.7.5_windows_setup.exe",
+      "version": "0.7.6",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.6/SonicLab_Flow_v0.7.6_windows_setup.exe",
+      "sha256": "739bb9d1a53899c4024d6273846bcbd15eafa5939c356fa1c46442c39594ee11",
+      "file": "SonicLab_Flow_v0.7.6_windows_setup.exe",
       "packageType": "exe",
-      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.5/SonicLab_Flow_v0.7.5_windows_update.zip",
-      "zipSha256": "d0c4050af1e9a9b558925c0de3b6d5a4146b2e56f479bf92129a701b461aff76"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.6/SonicLab_Flow_v0.7.6_windows_update.zip",
+      "zipSha256": "e2df11a84785b8610ab1f5526d6c0763234807b0fe3f6bd7ff722a607b465a21"
     }
   },
-  "publishedAt": "2026-11-10T01:06:02.419Z"
+  "publishedAt": "2026-11-11T12:30:27Z"
 }
