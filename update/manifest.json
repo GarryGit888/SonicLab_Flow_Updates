@@ -1,48 +1,47 @@
 {
-  "version": "0.7.7",
+  "version": "0.7.8",
   "distributionMode": "installers-only",
   "notes": [
-    "降低同步文件夹扫描与本地后端健康探测、试听及元数据请求相互拥堵的风险。",
-    "修复 Classic 运行时预加载期间健康探测可能同步等待大型模块导入的问题。",
-    "修复本地读取请求突发堆积时可能长期占用后端线程的问题。",
-    "修复外接音频源暂时不可读时，封面缩略图被错误记成永久缺失的问题。",
-    "修复封面加载失败后显示浏览器默认破图图标的问题。",
-    "修复播放列表封面缓存失效后不再尝试生成缩略图的问题。",
-    "手动文件夹扫描使用独立通道，重复扫描会返回可重试提示。",
-    "后端健康状态增加文件夹扫描通道信息，便于定位请求拥堵。",
-    "后端健康状态增加热读通道信息，便于识别本地读取拥堵。",
-    "封面暂时读取失败会自动重试，外接盘恢复或缓存修复后可以重新显示。",
-    "播放列表封面在缓存重试失败后会自动执行一次生成回退。"
+    "新增插件中心和歌单导入能力，支持安装、启用、停用和卸载本地插件。",
+    "新增网易云歌单导入和手动确认匹配，可将导入结果保存为播放列表。",
+    "新增底栏帮助中心入口，集中提供功能更新、反馈、官网和帮助文档。",
+    "修复 DEV 与正式版同时启动时可能反复报错或停留在加载页的问题。",
+    "修复损坏的封面缓存持续显示破图的问题。",
+    "修复单曲搜索结果循环播放结束后无法继续播放的问题。",
+    "修复 Resolve 导入超时后界面等待过久的问题。",
+    "优化连续操作下的数据库写入协调，减少文件、标签、回收站和播放列表操作互相阻塞。",
+    "优化退出时的后台任务停止和数据库收尾，降低退出后残留进程与数据库锁冲突。",
+    "优化顶部工具栏、播放列表详情和插件窗口的操作布局。"
   ],
   "mandatory": false,
   "channels": {
     "mac_arm64": {
-      "version": "0.7.7",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.7/SonicLab_Flow_v0.7.7_mac_arm64_installer.dmg",
-      "sha256": "d60b59d77dcc1e4becd297f3eb700791403b05ec9842abfee1f6b13acd942533",
-      "file": "SonicLab_Flow_v0.7.7_mac_arm64_installer.dmg",
+      "version": "0.7.8",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.8/SonicLab_Flow_v0.7.8_mac_arm64_installer.dmg",
+      "sha256": "2015d0eff6117fa2e05bfd2ddd760599a3334df85ae1f0634501fa8193ab92f1",
+      "file": "SonicLab_Flow_v0.7.8_mac_arm64_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.7/SonicLab_Flow_v0.7.7_mac_arm64_update.zip",
-      "zipSha256": "e78782ab0a7920422793d6620018156087d64f178f24669115b14f64480ea89b"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.8/SonicLab_Flow_v0.7.8_mac_arm64_update.zip",
+      "zipSha256": "682d8b078081a6bbf97f7c016e4e80efb6d0b5c4dcbe6d09bf16e9067c447578"
     },
     "mac_x64": {
-      "version": "0.7.7",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.7/SonicLab_Flow_v0.7.7_intel_mac_installer.dmg",
-      "sha256": "544836499f662d1de9bd7532917b7706eec62e3c1cfc7132bce59f872140cb74",
-      "file": "SonicLab_Flow_v0.7.7_intel_mac_installer.dmg",
+      "version": "0.7.8",
+      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.8/SonicLab_Flow_v0.7.8_intel_mac_installer.dmg",
+      "sha256": "c466063ee8607bdb57c97e6fbc4fb0b959cedf58cc4b55a6c656bc06650eef42",
+      "file": "SonicLab_Flow_v0.7.8_intel_mac_installer.dmg",
       "packageType": "dmg",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.7/SonicLab_Flow_v0.7.7_intel_mac_update.zip",
-      "zipSha256": "90bd68a8efaddf99622bb6edf8ac0eaeb2364ec571aae5620fb90caf0039ab59"
+      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.8/SonicLab_Flow_v0.7.8_intel_mac_update.zip",
+      "zipSha256": "ba9add2d9f634823cf3002db51e2ddb26a4457838238454cbea0f14bfa16bca3"
     },
     "win_x64": {
       "version": "0.7.7",
-      "url": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.7/SonicLab_Flow_v0.7.7_windows_setup.exe",
+      "url": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.7/SonicLab_Flow_v0.7.7_windows_setup.exe",
       "sha256": "e14c64982f5eafc68046c8d7b4383794fddcf67c4ac95abdaf72011ea90e11c7",
       "file": "SonicLab_Flow_v0.7.7_windows_setup.exe",
       "packageType": "exe",
-      "zipUrl": "https://github.com/GarryGit888/SonicLab_Flow_Updates/releases/download/v0.7.7/SonicLab_Flow_v0.7.7_windows_update.zip",
+      "zipUrl": "https://cnb.cool/garrykai/SonicLab_Flow_Updates/-/releases/download/v0.7.7/SonicLab_Flow_v0.7.7_windows_update.zip",
       "zipSha256": "657e7fbfeea2286bbbeea8dd49e5abde2b1fa40e87953b56349d26720eb097a7"
     }
   },
-  "publishedAt": "2026-11-22T07:48:00Z"
+  "publishedAt": "2026-11-26T07:50:27Z"
 }
